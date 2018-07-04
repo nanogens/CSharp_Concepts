@@ -95,7 +95,8 @@ namespace E
 					// Json deserializes to a CustomVision object.
 					// And from there we are simply getting from that object its list of predictions.  We don't really need the other information.
 					List<Prediction> predictions = (JsonConvert.DeserializeObject<CustomVision>(responseString)).predictions;
-						
+
+                    predictionsListView.ItemsSource = predictions;
 
 				}
 			} // HttpClient will now be closed
