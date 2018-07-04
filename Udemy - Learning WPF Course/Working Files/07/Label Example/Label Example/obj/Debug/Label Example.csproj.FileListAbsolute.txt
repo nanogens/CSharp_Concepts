@@ -1,0 +1,40 @@
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\bin\Debug\Label Example.exe.config
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\bin\Debug\Label Example.exe
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\bin\Debug\Label Example.pdb
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\MainWindow.g.cs
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\App.g.cs
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.cache
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.lref
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\MainWindow.baml
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label Example.g.resources
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label_Example.Properties.Resources.resources
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label Example.csproj.GenerateResource.Cache
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label Example.exe
+c:\users\mark long\documents\visual studio 2015\Projects\Label Example\Label Example\obj\Debug\Label Example.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.exe.config
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.exe
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\MainWindow.g.cs
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\App.g.cs
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.cache
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.lref
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\MainWindow.baml
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.g.resources
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label_Example.Properties.Resources.resources
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.csproj.GenerateResource.Cache
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.exe
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.pdb
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.exe.config
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.exe
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.pdb
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\MainWindow.g.cs
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\App.g.cs
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.lref
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\MainWindow.baml
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.g.resources
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label_Example.Properties.Resources.resources
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.csproj.GenerateResource.Cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.csproj.CoreCompileInputs.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.exe
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.pdb

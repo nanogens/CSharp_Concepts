@@ -1,0 +1,19 @@
+﻿<Window x:Class="Managing_Position_Content_Alignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Managing_Position_Content_Alignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+		<StackPanel>
+			<Button HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Background="Yellow" FontSize="22" Height="80">Left</Button>
+			<Button HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="LightBlue" FontSize="22" Height="80">Center</Button>
+			<Button HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Background="Yellow" FontSize="22" Height="80">Right</Button>
+			<Button HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center" Background="LightBlue" FontSize="22" Height="80">Stretch</Button>
+			<!--Note that a button's content is within a TextBlock control that does not stretch its inner text-->
+		</StackPanel>
+		
+	</Grid>
+</Window>

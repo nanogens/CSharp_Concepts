@@ -1,0 +1,203 @@
+﻿<Window x:Class="WPF_Basics_Sample_Application.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Basics_Sample_Application"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <!--DockPanel containing entire UI-->
+    <DockPanel>
+
+        <Menu DockPanel.Dock="Top" Background="LightSteelBlue" Padding="0,2">
+            <MenuItem Header="FILE">
+                <MenuItem Header="Save">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF7898B3" Offset="1" />
+                            <GradientStop Color="White" />
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="Exit" Click="MenuItem_Click">
+                    <MenuItem.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF7898B3" Offset="1" />
+                            <GradientStop Color="White" />
+                        </LinearGradientBrush>
+                    </MenuItem.Background>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="EDIT" />
+            <MenuItem Header="HELP" />
+        </Menu>
+
+
+
+        <!--Items bar-->
+        <Label DockPanel.Dock="Top" Content="Items" HorizontalAlignment="Stretch" 
+               HorizontalContentAlignment="Center">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF706A6A" Offset="0"/>
+                    <GradientStop Color="White" Offset="0.992"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+
+
+
+
+        <!--This StackPanel contains the slide in panel buttons on the right side-->
+        <StackPanel Name="buttonBar" Orientation="Horizontal" DockPanel.Dock="Right">
+            <StackPanel.LayoutTransform>
+                <RotateTransform Angle="90" />
+            </StackPanel.LayoutTransform>
+
+            <Button Name="btnOne" MouseEnter="btnOne_MouseEnter" Margin="0,0,5,0" Padding="10,1,10,1">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFE800" Offset="0" />
+                        <GradientStop Color="#FFFCFCFC" Offset="0.537" />
+                    </LinearGradientBrush>
+                </Button.Background> Button One
+            </Button>
+
+            <Button Name="btnTwo" MouseEnter="btnTwo_MouseEnter" Padding="10,1,10,1">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFE800" Offset="0" />
+                        <GradientStop Color="#FFFCFCFC" Offset="0.537" />
+                    </LinearGradientBrush>
+                </Button.Background> Button Two
+            </Button>
+        </StackPanel>
+
+
+
+
+        <Grid Name="parentGrid" Grid.IsSharedSizeScope="True">
+
+            <Grid Name="layer0" MouseEnter="layer0_MouseEnter">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+
+                <StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="4">
+
+                    <Button Content="Newest" Width="70" Height="30" Margin="0,0,0,1" ToolTip="Display the newest articles..."/>
+                    <Button Content="Recent" Height="30" Margin="0,1,0,1" ToolTip="Display articles posted within the last 7 days..."/>
+                    <Button Content="Options" Height="30" Margin="0,1,0,1" ToolTip="Customize article timeframes..."/>
+                    <Button Content="FAQ" Height="30" Margin="0,1,0,1" ToolTip="Frequently Asked Questions"/>
+                    <Button Content="Help" Height="30" Margin="0,1,0,1" ToolTip="Get online help..."/>
+                </StackPanel>
+
+
+                <ListBox Grid.Column="1" Grid.Row="0" Grid.RowSpan="4" ToolTip="Click on an article to read it...">
+                    <ListBoxItem>Dow Targets</ListBoxItem>
+                    <ListBoxItem>Credit Spreads</ListBoxItem>
+                    <ListBoxItem>New Ideas in Risk Management</ListBoxItem>
+                    <ListBoxItem>Understanding Theta</ListBoxItem>
+                </ListBox>
+
+            </Grid>
+
+
+
+            <!--For panel1 dock window-->
+            <!--This grid is the panel that appears for Button One-->
+            <Grid Name="gridlayer1" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition SharedSizeGroup="column1" Width="auto" />
+                </Grid.ColumnDefinitions>
+
+
+                <Grid Grid.Column="1" MouseEnter="panel1_MouseEnter" Background="LightBlue">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <DockPanel Grid.Row="0">
+                        <Button Width="26" Name="panel1Pin" DockPanel.Dock="Right" Click="panel1Pin_Click" Background="White">
+                            <Image Name="panel1PinImg" Source="HorizontalPin.jpg" />
+                        </Button>
+
+
+                        <TextBlock Padding="25,8" TextTrimming="CharacterEllipsis" Foreground="Black" DockPanel.Dock="Left">Panel One</TextBlock>
+
+                    </DockPanel>
+
+
+
+                    <ListBox Padding="10" Grid.Row="1">
+                        <ListBoxItem>Facebook</ListBoxItem>
+                        <ListBoxItem>Twitter</ListBoxItem>
+                        <ListBoxItem>Google+</ListBoxItem>
+                        <ListBoxItem>Instagram</ListBoxItem>
+                        <ListBoxItem>email</ListBoxItem>
+                    </ListBox>
+
+                </Grid>
+
+                <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Left" />
+
+            </Grid>
+
+
+            <!--This grid is the panel that appears for Button Two-->
+            <Grid Name="gridlayer2" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition SharedSizeGroup="column2" Width="auto" />
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1" MouseEnter="panel2_MouseEnter" Background="LightBlue">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <DockPanel Grid.Row="0">
+                        <Button Width="26" Name="panel2Pin" DockPanel.Dock="Right" Click="panel2Pin_Click" Background="White">
+                            <Image Name="panel2PinImg" Source="HorizontalPin.jpg" />
+                        </Button>
+
+
+                        <TextBlock Padding="35,8" TextTrimming="CharacterEllipsis" Foreground="Black" DockPanel.Dock="Left">Panel Two
+                        </TextBlock>
+                    </DockPanel>
+
+                    <TreeView Grid.Row="2">
+                        <TreeViewItem Header="Settings">
+                            <TreeViewItem Header="Colors" />
+                            <TreeViewItem Header="Defaults" />
+                            <TreeViewItem Header="Order" />
+                        </TreeViewItem>
+                    </TreeView>
+                </Grid>
+
+                <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Left" />
+            </Grid>
+
+
+
+        </Grid>
+    </DockPanel>
+
+</Window>
+

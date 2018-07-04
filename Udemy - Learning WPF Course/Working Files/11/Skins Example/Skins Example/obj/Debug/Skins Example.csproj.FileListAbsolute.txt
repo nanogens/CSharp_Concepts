@@ -1,0 +1,47 @@
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\bin\Debug\Skins Example.exe.config
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\bin\Debug\Skins Example.exe
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\bin\Debug\Skins Example.pdb
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example.csprojResolveAssemblyReference.cache
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\MainWindow.g.cs
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\App.g.cs
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example_MarkupCompile.cache
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example_MarkupCompile.lref
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\MainWindow.baml
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example.g.resources
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins_Example.Properties.Resources.resources
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example.csproj.GenerateResource.Cache
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example.exe
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\Skins Example.pdb
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\LooseLayout.baml
+c:\users\mlong\documents\visual studio 2015\Projects\Skins Example\Skins Example\obj\Debug\CompactLayout.baml
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\bin\Debug\Skins Example.exe.config
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.exe
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\bin\Debug\Skins Example.exe
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\bin\Debug\Skins Example.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\MainWindow.g.cs
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\App.g.cs
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example_MarkupCompile.cache
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example_MarkupCompile.lref
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\CompactLayout.baml
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\LooseLayout.baml
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\MainWindow.baml
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.g.resources
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins_Example.Properties.Resources.resources
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.csproj.GenerateResource.Cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\bin\Debug\Skins Example.exe.config
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\bin\Debug\Skins Example.exe
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\bin\Debug\Skins Example.pdb
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\MainWindow.g.cs
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\App.g.cs
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example_MarkupCompile.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example_MarkupCompile.lref
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\CompactLayout.baml
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\LooseLayout.baml
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\MainWindow.baml
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.g.resources
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins_Example.Properties.Resources.resources
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.csproj.GenerateResource.Cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.csproj.CoreCompileInputs.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.exe
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\11\Skins Example\Skins Example\obj\Debug\Skins Example.pdb

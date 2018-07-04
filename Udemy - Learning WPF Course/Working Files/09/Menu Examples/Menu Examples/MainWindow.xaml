@@ -1,0 +1,45 @@
+﻿<Window x:Class="Menu_Examples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Menu_Examples"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New..."/>
+                <MenuItem Header="Open..."/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+
+            </MenuItem>
+            <MenuItem Header="View">
+                <MenuItem Header="Large Font" IsCheckable="True" />
+                <MenuItem Header="High Contrast" IsCheckable="True" />
+                <MenuItem Header="Full Screen" IsCheckable="True" />
+            </MenuItem>
+            <MenuItem Header="Print">
+                <MenuItem Header="Printer" />
+                <MenuItem Header="To PDF..." />
+            </MenuItem>
+
+        </Menu>
+        <Grid>
+            <Label Content="Right-click anywhere in the grid..."/>
+            <Grid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Save screenshot..." Click="mnuPrint_Click" />
+                    <MenuItem Header="Print">
+                        <MenuItem Header="Printer" />
+                        <MenuItem Header="PDF" />
+                    </MenuItem>
+                </ContextMenu>
+         
+            </Grid.ContextMenu>
+
+        </Grid>
+
+    </DockPanel>
+</Window>

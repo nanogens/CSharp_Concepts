@@ -1,0 +1,16 @@
+﻿<Window x:Class="Flow_Direction_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flow_Direction_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Button FlowDirection="LeftToRight"  HorizontalContentAlignment="Left" Height="40" Background="Red" Foreground="White" FontSize="22">This is left to right</Button>
+            <Button FlowDirection="RightToLeft" HorizontalContentAlignment="Left" Height="40" Background="Red" Foreground="White" FontSize="22">This is right to left</Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="TreeView_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreeView_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <CheckBox Content="Include Georgia" HorizontalAlignment="Left" Checked="chkIncludeGA" Margin="0,10" />
+            <TreeView x:Name="tvStates">
+                <TreeViewItem Header="Tennessee">
+                    <TreeViewItem Header="Nashville"/>
+                    <TreeViewItem Header="Memphis"/>
+                    <TreeViewItem Header="Knoxville"/>
+                </TreeViewItem>
+                <TreeViewItem Header="Texas">
+                    <TreeViewItem Header="Dallas"/>
+                    <TreeViewItem Header="Houston"/>
+                    <TreeViewItem Header="Galveston"/>
+                </TreeViewItem>
+
+
+
+            </TreeView>
+            
+            
+            
+        </StackPanel>
+        
+
+    </Grid>
+</Window>

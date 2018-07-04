@@ -1,0 +1,20 @@
+﻿<Window x:Class="ToggleButton_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToggleButton_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Width="150" VerticalAlignment="Center">
+            <ToggleButton x:Name="tglButton" Checked="tglButton_Checked" Unchecked="tglButton_Unchecked">
+                High Output
+            </ToggleButton>
+            
+            <Label x:Name="label" Width="150" Height="35" HorizontalAlignment="Center" />
+            
+            
+        </StackPanel>
+    </Grid>
+</Window>

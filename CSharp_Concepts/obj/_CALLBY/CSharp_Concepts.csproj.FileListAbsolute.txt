@@ -1,0 +1,7 @@
+C:\Work\CSharp_Concepts\CSharp_Concepts\obj\_CALLBY\CSharp_Concepts.csprojResolveAssemblyReference.cache
+C:\Work\CSharp_Concepts\CSharp_Concepts\obj\_CALLBY\CSharp_Concepts.csproj.CoreCompileInputs.cache
+C:\Work\CSharp_Concepts\CSharp_Concepts\bin\_CALLBY\CSharp_Concepts.exe.config
+C:\Work\CSharp_Concepts\CSharp_Concepts\bin\_CALLBY\CSharp_Concepts.exe
+C:\Work\CSharp_Concepts\CSharp_Concepts\bin\_CALLBY\CSharp_Concepts.pdb
+C:\Work\CSharp_Concepts\CSharp_Concepts\obj\_CALLBY\CSharp_Concepts.exe
+C:\Work\CSharp_Concepts\CSharp_Concepts\obj\_CALLBY\CSharp_Concepts.pdb

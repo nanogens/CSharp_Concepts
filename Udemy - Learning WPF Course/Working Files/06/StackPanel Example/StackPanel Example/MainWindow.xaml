@@ -1,0 +1,31 @@
+﻿<Window x:Class="StackPanel_Example.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:StackPanel_Example" mc:Ignorable="d" Title="MainWindow" Height="248.249" Width="434.282">
+
+	<!--Simple StackPanel example-->
+	<StackPanel Orientation="Vertical">
+		<Button Content="Button One" Background="Yellow" Margin="5" Width="80" />
+		<Button Content="Button Two" Background="Orange" Margin="5" Width="80" />
+		<Button Content="Button Three" Background="Yellow" Margin="5" Width="80" />
+		<Button Content="Button Four" Background="Orange" Margin="5" Width="80" />
+	</StackPanel>
+
+
+	<!--Three StackPanels, the first contains two other StackPanels
+	The second StackPanel is the blue buttons, the third is the yellow and orange buttons
+	Note the orientation settings-->
+	<!--<StackPanel Background="DeepSkyBlue">
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+			<Button Content="January" Background="LightBlue" Margin="2,5" Width="90" Height="40" />
+			<Button Content="February" Background="LightBlue" Margin="2,5" Height="40" Width="90" />
+			<Button Content="March" Background="LightBlue" Margin="2,5" Height="40" Width="90" />
+			<Button Content="April" Background="LightBlue" Margin="2,5" Height="40" Width="90" />
+		</StackPanel>
+		<StackPanel Orientation="Vertical">
+			<Button Content="Button One" Background="Yellow" Margin="5" Width="80" />
+			<Button Content="Button Two" Background="Orange" Margin="5" Width="80" />
+			<Button Content="Button Three" Background="Yellow" Margin="5" Width="80" />
+			<Button Content="Button Four" Background="Orange" Margin="5" Width="80" />
+		</StackPanel>
+
+
+	</StackPanel>-->
+</Window>

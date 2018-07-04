@@ -1,0 +1,15 @@
+﻿<Window x:Class="Canvas_Panel_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Canvas_Panel_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="161.167" Width="320.333">
+    <Canvas>
+        <Button Background="Yellow" Content="Top / Left" Canvas.Top="20" Canvas.Left="20" Canvas.ZIndex="10"/>
+        <Button Background="Yellow" Content="Top / Right" Canvas.Top="20" Canvas.Right="20" />
+        <Button Background="Yellow" Content="Bottom / Left" Canvas.Bottom="20" Canvas.Left="20" />
+        <Button Background="Yellow" Content="Bottom / Right" Canvas.Bottom="20" Canvas.Right="20" />
+    </Canvas>
+</Window>

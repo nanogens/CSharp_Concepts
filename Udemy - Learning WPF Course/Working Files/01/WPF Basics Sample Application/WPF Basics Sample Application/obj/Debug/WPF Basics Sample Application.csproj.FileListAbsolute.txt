@@ -1,0 +1,42 @@
+c:\users\mark long\documents\visual studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.exe.config
+C:\Users\Mark Long\documents\visual studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.csprojResolveAssemblyReference.cache
+C:\Users\Mark Long\documents\visual studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\MainWindow.g.cs
+C:\Users\Mark Long\documents\visual studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\App.g.cs
+C:\Users\Mark Long\documents\visual studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application_MarkupCompile.cache
+C:\Users\Mark Long\documents\visual studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application_MarkupCompile.lref
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.exe
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.pdb
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\MainWindow.baml
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.g.resources
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF_Basics_Sample_Application.Properties.Resources.resources
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.csproj.GenerateResource.Cache
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.exe
+C:\Users\Mark Long\Documents\Visual Studio 2015\Projects\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.exe.config
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.exe
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\MainWindow.g.cs
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\App.g.cs
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application_MarkupCompile.cache
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application_MarkupCompile.lref
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\MainWindow.baml
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.g.resources
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF_Basics_Sample_Application.Properties.Resources.resources
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.csproj.GenerateResource.Cache
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.exe
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.pdb
+D:\Playground\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.csprojResolveAssemblyReference.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.exe.config
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.exe
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\bin\Debug\WPF Basics Sample Application.pdb
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\MainWindow.g.cs
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\App.g.cs
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application_MarkupCompile.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application_MarkupCompile.lref
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\MainWindow.baml
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.g.resources
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF_Basics_Sample_Application.Properties.Resources.resources
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.csproj.GenerateResource.Cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.csproj.CoreCompileInputs.cache
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.exe
+C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\01\WPF Basics Sample Application\WPF Basics Sample Application\obj\Debug\WPF Basics Sample Application.pdb

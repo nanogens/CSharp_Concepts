@@ -1,0 +1,38 @@
+﻿<Window x:Class="ListBox_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListBox_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Height="319" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="241*"/>
+            <ColumnDefinition Width="276*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox x:Name="lstBox1" Grid.Column="0">
+            <ListBoxItem>One</ListBoxItem>
+            <ListBoxItem>Two</ListBoxItem>
+            <ListBoxItem>Three</ListBoxItem>
+            <ListBoxItem>Four</ListBoxItem>
+        </ListBox>
+        <ListBox x:Name="lstBox2" Grid.Column="1">
+            <ListBoxItem>One</ListBoxItem>
+            <Button>Item Two</Button>
+            <CheckBox>Currently Employed</CheckBox>
+            <Expander Header="Available Colors" >
+                <StackPanel>
+                    <RadioButton Background="Red" Margin="15,5">Red</RadioButton>
+                    <RadioButton Background="Yellow" Margin="15,5">Yellow</RadioButton>
+                    <RadioButton Background="BurlyWood" Margin="15,5">Brown</RadioButton>
+                    <RadioButton Background="LightBlue" Margin="15,5">Blue</RadioButton>
+                    <DatePicker Width="200" />
+                </StackPanel>
+            </Expander>
+        </ListBox>
+       
+
+    </Grid>
+</Window>

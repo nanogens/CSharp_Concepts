@@ -1,0 +1,29 @@
+﻿<Window x:Class="Element_Alignment_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Element_Alignment_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="496.581">
+    <StackPanel>
+        <Button HorizontalAlignment="Left" Background="Yellow" FontSize="22">Left</Button>
+        <Button HorizontalAlignment="Center" Background="Yellow" FontSize="22">Center</Button>
+        <Button HorizontalAlignment="Right" Background="Yellow" FontSize="22">Right</Button>
+        <Button HorizontalAlignment="Stretch" Background="Yellow" FontSize="22">Stretch</Button>
+    </StackPanel>
+
+
+
+    <!--Note! the StackPanel will always collapse around the child items within it, causing the VerticalAlignment property to be ineffective
+	The DockPanel will provide child items with extra available space, making VerticalAlignment a useful property.-->
+
+    <!--<DockPanel>
+		<Button HorizontalAlignment="Left" VerticalAlignment="Top" Background="Yellow" FontSize="22">Left</Button>
+		<Button HorizontalAlignment="Center" VerticalAlignment="Center" Background="Yellow" FontSize="22">Center</Button>
+		<Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Yellow" FontSize="22">Right</Button>
+		<Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Yellow" FontSize="22">Stretch</Button>
+	</DockPanel>-->
+
+
+</Window>

@@ -1,0 +1,41 @@
+﻿<Window x:Class="Skins_Example.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Skins_Example"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+		<DockPanel>
+			<StackPanel DockPanel.Dock="Left">
+				<Button Style="{DynamicResource btnStyle}">Button One</Button>
+				<Button Style="{DynamicResource btnStyle}">Button Two</Button>
+				<Button Style="{DynamicResource btnStyle}">Button Three</Button>
+				<Button Style="{DynamicResource btnStyle}">Button Four</Button>
+			</StackPanel>
+			<Grid>
+				<DockPanel>
+					<StackPanel DockPanel.Dock="Right">
+						<ListBox>
+							<ListBoxItem>Item 1</ListBoxItem>
+							<ListBoxItem>Item 2</ListBoxItem>
+							<ListBoxItem>Item 3</ListBoxItem>
+							<ListBoxItem>Item 4</ListBoxItem>
+							<ListBoxItem>Item 5</ListBoxItem>
+						</ListBox>
+						<GroupBox Header="Color Scheme" Margin="5,10">
+						  <StackPanel>
+								<RadioButton Checked="chkCompactLayout_Clicked">Compact Layout</RadioButton>
+								<RadioButton Checked="chkLooseLayout_Clicked">Loose Layout</RadioButton>
+						  </StackPanel>
+						</GroupBox>
+					</StackPanel>
+					<Grid>
+						
+					</Grid>
+				</DockPanel>
+			</Grid>
+        </DockPanel>
+    </Grid>
+</Window>
