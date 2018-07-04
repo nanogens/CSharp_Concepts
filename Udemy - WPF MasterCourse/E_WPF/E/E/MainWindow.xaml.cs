@@ -20,6 +20,8 @@ using Microsoft.Win32;
 using System.IO;
 // For HttpClient
 using System.Net.Http;
+using Newtonsoft.Json;
+using E.Classes;
 
 namespace E
 {
@@ -81,7 +83,7 @@ namespace E
 																															// There are also other methods of sending information - PutAsync() and GetAsync() method.  In the latter we don't need to send any info to the server
 																															// Note image we send must be under 4 MB - not sure if this limitation is just for the website or the 
 																															// Note the response returns in JSON format.
-					var responseString = await response.Content.ReadAsStringAsync(); 
+					var responseString = await response.Content.ReadAsStringAsync();
 
 					// Put a breakpoint here at the closing bracket below.
 					// When you load an image, sent it via HTTP with content and the website responds, click on the Magnifying glass on responseString after hovering over that variable
@@ -89,6 +91,12 @@ namespace E
 					// Copy that long Json string and go to www.jsonutils.com and paste it there.
 					// Click Submit button on the website and it will generate a C# class/es.
 					// Copy those classes.
+
+					// Json deserializes to a CustomVision object.
+					// And from there we are simply getting from that object its list of predictions.  We don't really need the other information.
+					List<Prediction> predictions = (JsonConvert.DeserializeObject<CustomVision>(responseString)).predictions;
+						
+
 				}
 			} // HttpClient will now be closed
 		}

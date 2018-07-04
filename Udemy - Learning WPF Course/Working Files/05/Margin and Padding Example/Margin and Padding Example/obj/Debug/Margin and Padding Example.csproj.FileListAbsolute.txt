@@ -39,3 +39,16 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin 
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\bin\Debug\Margin and Padding Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\bin\Debug\Margin and Padding Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\bin\Debug\Margin and Padding Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin_and_Padding_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Margin and Padding Example\Margin and Padding Example\obj\Debug\Margin and Padding Example.pdb

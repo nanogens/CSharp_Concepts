@@ -39,3 +39,16 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleB
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\bin\Debug\ToggleButton Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\bin\Debug\ToggleButton Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\bin\Debug\ToggleButton Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\ToggleButton Example\ToggleButton Example\obj\Debug\ToggleButton Example.pdb
