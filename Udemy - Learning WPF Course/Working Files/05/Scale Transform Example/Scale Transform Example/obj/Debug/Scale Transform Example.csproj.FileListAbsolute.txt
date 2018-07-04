@@ -25,3 +25,16 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale T
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\bin\Debug\Scale Transform Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\bin\Debug\Scale Transform Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\bin\Debug\Scale Transform Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale_Transform_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Scale Transform Example\Scale Transform Example\obj\Debug\Scale Transform Example.pdb

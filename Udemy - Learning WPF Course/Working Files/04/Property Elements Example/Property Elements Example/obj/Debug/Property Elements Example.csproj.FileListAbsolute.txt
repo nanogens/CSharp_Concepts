@@ -40,3 +40,17 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Propert
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\bin\Debug\Property Elements Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\bin\Debug\Property Elements Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\bin\Debug\Property Elements Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.csprojResolveAssemblyReference.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property_Elements_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.pdb

@@ -27,3 +27,17 @@ C:\Learning\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.cspro
 C:\Learning\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.exe
 C:\Learning\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.pdb
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\bin\Debug\B.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\bin\Debug\B.exe
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\bin\Debug\B.pdb
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\App.baml
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.exe
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\B_WPF\B\B\obj\Debug\B.pdb

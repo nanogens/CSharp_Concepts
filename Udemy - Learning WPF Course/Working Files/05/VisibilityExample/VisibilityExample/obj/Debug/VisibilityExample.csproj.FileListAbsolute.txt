@@ -25,3 +25,16 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Visibil
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\bin\Debug\VisibilityExample.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\bin\Debug\VisibilityExample.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\bin\Debug\VisibilityExample.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\VisibilityExample\VisibilityExample\obj\Debug\VisibilityExample.pdb

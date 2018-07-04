@@ -38,3 +38,16 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label E
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\bin\Debug\Label Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\07\Label Example\Label Example\obj\Debug\Label Example.pdb

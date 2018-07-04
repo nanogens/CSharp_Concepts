@@ -26,3 +26,16 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPan
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\bin\Debug\GridPanel Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\bin\Debug\GridPanel Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\bin\Debug\GridPanel Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\GridPanel Example\GridPanel Example\obj\Debug\GridPanel Example.pdb
