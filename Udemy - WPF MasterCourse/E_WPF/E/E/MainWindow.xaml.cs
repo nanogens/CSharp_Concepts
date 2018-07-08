@@ -35,6 +35,8 @@ namespace E
 			InitializeComponent();
 		}
 
+		// when the button is clicked, open file 
+	  // pass the filename to MakePredictionAsync function
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 			// By writing out OpenFileDialog and clicking on "suggested fixes", we see that we need to add this namespace to our project 
@@ -52,6 +54,9 @@ namespace E
 			}
 		}
 
+		// send our picture to microsoft's customvision.ai
+		// get back a respose in json format and deserialize it
+		// format that deserialized data to display it in a list on the XAML front end
 		private async void MakePredictionAsync(string fileName)
 		{
 			// Load up what we need to send to Microsoft's customvision.ai website.
