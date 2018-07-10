@@ -15,11 +15,18 @@ using System.Threading.Tasks;
 // Then we copied and pasted it below.
 // We optimized it by unifying Metric and Imperial classes into one class called Measurement.
 // And we got rid of some properties in the AccuWeather class which we probably won't need.
+//
+// If we plan to only use certain properties and not all of them, we can delete those properties from our class.
+// Its ok to do so.  There's no problem if the JSON has some properties which the class does not.
+// It just means when that specific proeprty is deserialized from the JSON, it won't be accessible in C#.
+//
+// Likewise, it does not matter if the C# has extra properties that are not in the JSON.
+// It just means those properties will not be assigned a value when the JSON is deserialized. 
 #endregion
 
 namespace F.Model
 {
-	public class Measurement
+	public class MeasuringUnit
 	{
 		public double Value { get; set; }
 		public string Unit { get; set; }
@@ -28,8 +35,8 @@ namespace F.Model
 
 	public class Temperature
 	{
-		public Measurement Metric { get; set; }
-		public Measurement Imperial { get; set; }
+		public MeasuringUnit Metric { get; set; }
+		public MeasuringUnit Imperial { get; set; }
 	}
 
 	public class AccuWeather

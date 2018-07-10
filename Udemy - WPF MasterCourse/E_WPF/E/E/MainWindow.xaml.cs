@@ -35,6 +35,9 @@ namespace E
 			InitializeComponent();
 		}
 
+		// If we had implemented this project as an MVVM model, we would not be having these methods Button_Click() and MakePredictionAsync() here.
+		// Thus We have to find a way to replace these methods - like the Button_Click event handler.
+
 		// when the button is clicked, open file 
 	  // pass the filename to MakePredictionAsync function
 		private void Button_Click(object sender, RoutedEventArgs e)
@@ -101,7 +104,7 @@ namespace E
 					// And from there we are simply getting from that object its list of predictions.  We don't really need the other information.
 					List<Prediction> predictions = (JsonConvert.DeserializeObject<CustomVision>(responseString)).predictions;
 
-                    predictionsListView.ItemsSource = predictions;
+          predictionsListView.ItemsSource = predictions;
 
 				}
 			} // HttpClient will now be closed
