@@ -36,7 +36,7 @@ namespace F.ViewModel
 		public async Task<AccuWeather> GetWeatherInformationAsync(string cityName)
 		{
 			// to hold the result
-			AccuWeather result = new AccuWeather;
+			AccuWeather result = new AccuWeather();
 
 			// Now we begint he process of constructing the request string to be sent request to AccuWeather
 			// format will allow us to change the string with place holders into string with actual values for {0} and {1}

@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:F.View"
         mc:Ignorable="d"
-        Title="WeatherWindow" Height="300" Width="300">
+        Title="WeatherWindow" Height="325.8" Width="300">
     <Grid>
-        
+        <StackPanel Margin="10">
+        <TextBox />
+        <TextBlock Text="Paris"
+                   Margin="0 20 0 0"
+                   FontSize="20"
+                   FontWeight="Bold"/>
+        <TextBlock Text="21 Deg"
+                   Margin="0 30 0 0"
+                   FontSize="40"
+                   FontWeight="ExtraBold"/>
+        <TextBlock Text="Sunny"
+                   FontSize="15"
+                   FontWeight="DemiBold"/>
+        <TextBlock Text="UV 7"
+                   Margin="0 50 0 0"/>
+        <TextBlock Text="Prec 65%"/>
+        <TextBlock Text="NE 9 Kmph"/>
+        </StackPanel>
     </Grid>
 </Window>
