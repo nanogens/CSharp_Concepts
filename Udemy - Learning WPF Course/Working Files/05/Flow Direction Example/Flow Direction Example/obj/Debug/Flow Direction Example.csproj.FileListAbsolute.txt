@@ -29,7 +29,6 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Di
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\bin\Debug\Flow Direction Example.exe.config
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\bin\Debug\Flow Direction Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\bin\Debug\Flow Direction Example.pdb
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\obj\Debug\Flow Direction Example.csprojResolveAssemblyReference.cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\obj\Debug\MainWindow.g.cs
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\obj\Debug\App.g.cs
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Flow Direction Example\Flow Direction Example\obj\Debug\Flow Direction Example_MarkupCompile.cache
