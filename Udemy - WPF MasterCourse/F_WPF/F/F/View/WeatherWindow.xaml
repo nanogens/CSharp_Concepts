@@ -4,26 +4,39 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:F.View"
+        xmlns:vm="clr-namespace:F.ViewModel"
         mc:Ignorable="d"
         Title="WeatherWindow" Height="325.8" Width="300">
-    <Grid>
-        <StackPanel Margin="10">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#555555" />
+        </Style>
+        <vm:WeatherVM x:Key="vm"/>
+    </Window.Resources>
+    
+    <Grid DataContext="{StaticResource vm}">
+        <StackPanel Margin="10"
+                    DataContext="{Binding Weather}"/>
         <TextBox />
         <TextBlock Text="Paris"
                    Margin="0 20 0 0"
                    FontSize="20"
                    FontWeight="Bold"/>
-        <TextBlock Text="21 Deg"
-                   Margin="0 30 0 0"
+        <TextBlock Text="{Binding Weather.Temperature.Metric.Value}"
+                   Margin="0 60 0 0"
                    FontSize="40"
                    FontWeight="ExtraBold"/>
-        <TextBlock Text="Sunny"
+        <TextBlock Text="{Binding Weather.WeatherText}"
                    FontSize="15"
                    FontWeight="DemiBold"/>
         <TextBlock Text="UV 7"
-                   Margin="0 50 0 0"/>
-        <TextBlock Text="Prec 65%"/>
-        <TextBlock Text="NE 9 Kmph"/>
-        </StackPanel>
+                   Margin="0 120 0 0"/>
+        <TextBlock Text="Prec 65%"
+                   Margin="0 160 0 0"
+                   FontSize="20"/>
+        <TextBlock Text="NE 9 Kmph"
+                   Margin="0 220 0 0"
+                   FontSize="20"/>
     </Grid>
 </Window>

@@ -24,6 +24,7 @@ namespace F.ViewModel
 		public const string LOCATION_KEY = "328328";
 		// 0 is your api key to access AccuWeather (provided in MyApps on the website) 
 		// 1 is a location key
+		// 		public const string BASE_URL = "http://dataservice.accuweather.com/currentconditions/v1/GET/{0}?apikey={1}&details=true";
 		public const string BASE_URL = "http://dataservice.accuweather.com/currentconditions/v1/GET/{0}?apikey={1}";
 		
 
@@ -61,6 +62,5 @@ namespace F.ViewModel
 			// return back the result we got
 			return result;
 		}
-
 	}
 }
