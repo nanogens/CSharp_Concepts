@@ -25,8 +25,10 @@ namespace F.ViewModel
 		// 0 is your api key to access AccuWeather (provided in MyApps on the website) 
 		// 1 is a location key
 		// 		public const string BASE_URL = "http://dataservice.accuweather.com/currentconditions/v1/GET/{0}?apikey={1}&details=true";
-		public const string BASE_URL = "http://dataservice.accuweather.com/currentconditions/v1/GET/{0}?apikey={1}";
-		
+		//public const string BASE_URL = "http://dataservice.accuweather.com/currentconditions/v1/GET/{0}?apikey={1}";
+
+		public const string BASE_URL = "http://dataservice.accuweather.com/currentconditions/v1/{0}?apikey={1}";
+
 
 		// since this is now of type async, we will set it to be a Task<>
 		// what this means is that by default, the getweatherinformationasync() will be a task
@@ -34,14 +36,15 @@ namespace F.ViewModel
 
 		// by adding the word Task<>, if nothing is awaited, the type is going to be Task<Accuweather>
 		// if something is awaited, it will be of type AccuWeather
-		public async Task<AccuWeather> GetWeatherInformationAsync(string cityName)
+		public static async Task<AccuWeather> GetWeatherInformationAsync(string locationKey)
 		{
 			// to hold the result
 			AccuWeather result = new AccuWeather();
 
 			// Now we begint he process of constructing the request string to be sent request to AccuWeather
 			// format will allow us to change the string with place holders into string with actual values for {0} and {1}
-			string url = string.Format(BASE_URL, LOCATION_KEY, API_KEY);
+			//string url = string.Format(BASE_URL, LOCATION_KEY, API_KEY);
+			string url = string.Format(BASE_URL, locationKey, API_KEY);
 
 			// now we need to send this url through http client
 			using (HttpClient client = new HttpClient())
@@ -57,6 +60,10 @@ namespace F.ViewModel
 				// now to convert the Json we got into C# object
 				// this method will return a deserialized JSON in the form of an AccuWeather object
 				result = JsonConvert.DeserializeObject<AccuWeather>(json);
+
+				// NOTE : We get only 20 requests a day we can execute against the AccuWeather server with our free account.
+				// If we happen to use up all 20 requests, we have to wait till the next day.
+				// Check to see if json string does not have a proper reply from the server, we may have exceeded our 20 query limit.
 			}
 
 			// return back the result we got

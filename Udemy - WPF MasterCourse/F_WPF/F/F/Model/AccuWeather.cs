@@ -29,32 +29,106 @@ using System.ComponentModel;
 
 namespace F.Model
 {
-	public class MeasuringUnit : INotifyPropertyChanged
+	// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
+	// So we exclude that line from Value (set), Unit (set) and UnitType (set).
+	// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
+	// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
+	public class Metric
 	{
-		public double Value { get; set; }
-		public string Unit { get; set; }
-		public int UnitType { get; set; }
-
-		// this causes an event to be raised everytime a property changes (due to set)
-		public event PropertyChangedEventHandler PropertyChanged;
-		private void OnPropertyChanged(string propertyName)
+		private double value_metric;
+		public double Value
 		{
-			// checks to see if the property that has been changed has a handler associated with it
-			// if so, only then do we raise an event
-			// we don't want to raise an event unless there is a handler for it or we will cause a problem
-			if (PropertyChanged != null)
+			get
 			{
-				PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+				return value_metric;
+			}
+			set
+			{
+				value_metric = value;
+
+			}
+		}
+
+		private string unit_metric;
+		public string Unit
+		{
+			get
+			{
+				return unit_metric;
+			}
+			set
+			{
+				unit_metric = value;
+
+			}
+		}
+
+		private int unitType_metric;
+		public int UnitType
+		{
+			get
+			{
+				return unitType_metric;
+			}
+			set
+			{
+				unitType_metric = value;
+
 			}
 		}
 	}
 
+	// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
+	// So we exclude that line from Value (set), Unit (set) and UnitType (set).
+	// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
+	// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
+	public class Imperial
+	{
+		private int value_imperial;
+		public int Value
+		{
+			get
+			{
+				return value_imperial;
+			}
+			set
+			{
+				value_imperial = value;
+			}
+		}
+
+		private string unit_imperial;
+		public string Unit
+		{
+			get
+			{
+				return unit_imperial;
+			}
+			set
+			{
+				unit_imperial = value;
+			}
+		}
+
+		private int unittype_imperial;
+		public int UnitType
+		{
+			get
+			{
+				return unittype_imperial;
+			}
+			set
+			{
+				unittype_imperial = value;
+			}
+		}
+	}
+
+	// We need the OnPropertyChanged() event raised for Temperature (but not Metric and Imperial properties above).
 	public class Temperature : INotifyPropertyChanged
 	{
-		//public MeasuringUnit Metric { get; set; }
-		//public MeasuringUnit Imperial { get; set; }
-		private MeasuringUnit metric;
-		public MeasuringUnit Metric
+		private Metric metric;
+		public Metric Metric
 		{
 			get
 			{
@@ -67,8 +141,8 @@ namespace F.Model
 			}
 		}
 
-		private MeasuringUnit imperial;
-		public MeasuringUnit Imperial
+		private Imperial imperial;
+		public Imperial Imperial
 		{
 			get
 			{
@@ -80,7 +154,6 @@ namespace F.Model
 				OnPropertyChanged("Imperial");
 			}
 		}
-
 
 		// this causes an event to be raised everytime a property changes (due to set)
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -102,14 +175,83 @@ namespace F.Model
 	// set is what makes the property change because in there is where we assign a new value
 	public class AccuWeather : INotifyPropertyChanged  
 	{
-		public DateTime LocalObservationDateTime { get; set; }
-		public int EpochTime { get; set; }
+		//public DateTime LocalObservationDateTime { get; set; }
+		//public int EpochTime { get; set; }
 		//public string WeatherText { get; set; } // implemented below
-		public int WeatherIcon { get; set; }
-		public bool IsDayTime { get; set; }
+		//public int WeatherIcon { get; set; }
+		//public bool IsDayTime { get; set; }
 		//public Temperature Temperature { get; set; }
 
-		
+		private DateTime localObservationDateTime;
+		public DateTime LocalObservationDateTime
+		{
+			get
+			{
+				return localObservationDateTime;
+			}
+			set
+			{
+				localObservationDateTime = value;
+				OnPropertyChanged("LocalObservationDateTime");
+			}
+		}
+
+		private int epochTime;
+		public int EpochTime
+		{
+			get
+			{
+				return epochTime;
+			}
+			set
+			{
+				epochTime = value;
+				OnPropertyChanged("EpochTime");
+			}
+		}
+
+		private string weathertext;
+		public string WeatherText
+		{
+			get
+			{
+				return weathertext;
+			}
+			set
+			{
+				weathertext = value;
+				OnPropertyChanged("WeatherText");
+			}
+		}
+
+		private int weatherIcon;
+		public int WeatherIcon
+		{
+			get
+			{
+				return weatherIcon;
+			}
+			set
+			{
+				weatherIcon = value;
+				OnPropertyChanged("WeatherIcon");
+			}
+		}
+
+		private bool isdaytime;
+		public bool IsDayTime
+		{
+			get
+			{
+				return isdaytime;
+			}
+			set
+			{
+				isdaytime = value;
+				OnPropertyChanged("IsDayTime");
+			}
+		}
+
 		private Temperature temperature;
 		public Temperature Temperature
 		{
@@ -123,22 +265,34 @@ namespace F.Model
 				OnPropertyChanged("Temperature");
 			}
 		}
-    
 
-		private string weatherText;
-		public string WeatherText
+		private string mobilelink;
+		public string MobileLink
 		{
 			get
 			{
-				return weatherText;
+				return mobilelink;
 			}
 			set
 			{
-				weatherText = value;
-				OnPropertyChanged("WeatherText");
+				mobilelink = value;
+				OnPropertyChanged("MobileLink");
 			}
 		}
 
+		private string link;
+		public string Link
+		{
+			get
+			{
+				return link;
+			}
+			set
+			{
+				link = value;
+				OnPropertyChanged("Link");
+			}
+		}
 
 		// this causes an event to be raised everytime a property changes (due to set)
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -171,13 +325,13 @@ namespace F.Model
 			{
 				Temperature = new Temperature()
 				{
-					Imperial = new MeasuringUnit()
+					Imperial = new Imperial()
 					{
 						Value = 88,
 						Unit = "F",
 						UnitType = 18
 					},
-					Metric = new MeasuringUnit()
+					Metric = new Metric()
 					{
 						Value = 25.8,
 						Unit = "C",

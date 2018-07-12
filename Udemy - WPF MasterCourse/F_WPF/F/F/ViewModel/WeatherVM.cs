@@ -18,6 +18,5 @@ namespace F.ViewModel
 		{
 			Weather = new AccuWeather();
 		}
-
 	}
 }
