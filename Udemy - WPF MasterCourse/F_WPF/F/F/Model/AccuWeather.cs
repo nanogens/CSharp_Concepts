@@ -29,158 +29,149 @@ using System.ComponentModel;
 
 namespace F.Model
 {
-	// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
-	// So we exclude that line from Value (set), Unit (set) and UnitType (set).
-	// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
-	// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
-	public class Metric
-	{
-		private double value_metric;
-		public double Value
-		{
-			get
-			{
-				return value_metric;
-			}
-			set
-			{
-				value_metric = value;
-
-			}
-		}
-
-		private string unit_metric;
-		public string Unit
-		{
-			get
-			{
-				return unit_metric;
-			}
-			set
-			{
-				unit_metric = value;
-
-			}
-		}
-
-		private int unitType_metric;
-		public int UnitType
-		{
-			get
-			{
-				return unitType_metric;
-			}
-			set
-			{
-				unitType_metric = value;
-
-			}
-		}
-	}
-
-	// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
-	// So we exclude that line from Value (set), Unit (set) and UnitType (set).
-	// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
-	// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
-	public class Imperial
-	{
-		private int value_imperial;
-		public int Value
-		{
-			get
-			{
-				return value_imperial;
-			}
-			set
-			{
-				value_imperial = value;
-			}
-		}
-
-		private string unit_imperial;
-		public string Unit
-		{
-			get
-			{
-				return unit_imperial;
-			}
-			set
-			{
-				unit_imperial = value;
-			}
-		}
-
-		private int unittype_imperial;
-		public int UnitType
-		{
-			get
-			{
-				return unittype_imperial;
-			}
-			set
-			{
-				unittype_imperial = value;
-			}
-		}
-	}
-
-	// We need the OnPropertyChanged() event raised for Temperature (but not Metric and Imperial properties above).
-	public class Temperature : INotifyPropertyChanged
-	{
-		private Metric metric;
-		public Metric Metric
-		{
-			get
-			{
-				return metric;
-			}
-			set
-			{
-				metric = value;
-				OnPropertyChanged("Metric");
-			}
-		}
-
-		private Imperial imperial;
-		public Imperial Imperial
-		{
-			get
-			{
-				return imperial;
-			}
-			set
-			{
-				imperial = value;
-				OnPropertyChanged("Imperial");
-			}
-		}
-
-		// this causes an event to be raised everytime a property changes (due to set)
-		public event PropertyChangedEventHandler PropertyChanged;
-		private void OnPropertyChanged(string propertyName)
-		{
-			// checks to see if the property that has been changed has a handler associated with it
-			// if so, only then do we raise an event
-			// we don't want to raise an event unless there is a handler for it or we will cause a problem
-			if (PropertyChanged != null)
-			{
-				PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
 
 	// to implement INotifyPropertyChanged we need to do 2 things.
 	// 1. add using System.ComponentModel namespace at the top
 	// 2. implent the event handler PropertyChanged below
 	// set is what makes the property change because in there is where we assign a new value
-	public class AccuWeather : INotifyPropertyChanged  
+	public class AccuWeather : INotifyPropertyChanged
 	{
-		//public DateTime LocalObservationDateTime { get; set; }
-		//public int EpochTime { get; set; }
-		//public string WeatherText { get; set; } // implemented below
-		//public int WeatherIcon { get; set; }
-		//public bool IsDayTime { get; set; }
-		//public Temperature Temperature { get; set; }
+		// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
+		// So we exclude that line from Value (set), Unit (set) and UnitType (set).
+		// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
+		// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
+		public class Metric
+		{
+			private double value_metric;
+			public double Value
+			{
+				get
+				{
+					return value_metric;
+				}
+				set
+				{
+					value_metric = value;
+				}
+			}
+
+			private string unit_metric;
+			public string Unit
+			{
+				get
+				{
+					return unit_metric;
+				}
+				set
+				{
+					unit_metric = value;
+				}
+			}
+
+			private int unitType_metric;
+			public int UnitType
+			{
+				get
+				{
+					return unitType_metric;
+				}
+				set
+				{
+					unitType_metric = value;
+				}
+			}
+		}
+
+		// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
+		// So we exclude that line from Value (set), Unit (set) and UnitType (set).
+		// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
+		// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
+		public class Imperial
+		{
+			private int value_imperial;
+			public int Value
+			{
+				get
+				{
+					return value_imperial;
+				}
+				set
+				{
+					value_imperial = value;
+				}
+			}
+
+			private string unit_imperial;
+			public string Unit
+			{
+				get
+				{
+					return unit_imperial;
+				}
+				set
+				{
+					unit_imperial = value;
+				}
+			}
+
+			private int unittype_imperial;
+			public int UnitType
+			{
+				get
+				{
+					return unittype_imperial;
+				}
+				set
+				{
+					unittype_imperial = value;
+				}
+			}
+		}
+
+		// We need the OnPropertyChanged() event raised for Temperature (but not Metric and Imperial properties above).
+		public class Temperature 
+		{
+			private Metric metric;
+			public Metric Metric
+			{
+				get
+				{
+					return metric;
+				}
+				set
+				{
+					metric = value;
+					//OnPropertyChanged("Metric");
+				}
+			}
+
+			private Imperial imperial;
+			public Imperial Imperial
+			{
+				get
+				{
+					return imperial;
+				}
+				set
+				{
+					imperial = value;
+					//OnPropertyChanged("Imperial");
+				}
+			}
+
+			// this causes an event to be raised everytime a property changes (due to set)
+			public event PropertyChangedEventHandler PropertyChanged;
+			private void OnPropertyChanged(string propertyName)
+			{
+				// checks to see if the property that has been changed has a handler associated with it
+				// if so, only then do we raise an event
+				// we don't want to raise an event unless there is a handler for it or we will cause a problem
+				if (PropertyChanged != null)
+				{
+					//PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+				}
+			}
+		}
 
 		private DateTime localObservationDateTime;
 		public DateTime LocalObservationDateTime
@@ -192,7 +183,7 @@ namespace F.Model
 			set
 			{
 				localObservationDateTime = value;
-				OnPropertyChanged("LocalObservationDateTime");
+				//OnPropertyChanged("LocalObservationDateTime");
 			}
 		}
 
@@ -206,7 +197,7 @@ namespace F.Model
 			set
 			{
 				epochTime = value;
-				OnPropertyChanged("EpochTime");
+				//OnPropertyChanged("EpochTime");
 			}
 		}
 
@@ -220,7 +211,7 @@ namespace F.Model
 			set
 			{
 				weathertext = value;
-				OnPropertyChanged("WeatherText");
+				//OnPropertyChanged("WeatherText");
 			}
 		}
 
@@ -234,7 +225,7 @@ namespace F.Model
 			set
 			{
 				weatherIcon = value;
-				OnPropertyChanged("WeatherIcon");
+				//OnPropertyChanged("WeatherIcon");
 			}
 		}
 
@@ -248,21 +239,7 @@ namespace F.Model
 			set
 			{
 				isdaytime = value;
-				OnPropertyChanged("IsDayTime");
-			}
-		}
-
-		private Temperature temperature;
-		public Temperature Temperature
-		{
-			get
-			{
-				return temperature;
-			}
-			set
-			{
-				temperature = value;
-				OnPropertyChanged("Temperature");
+				//OnPropertyChanged("IsDayTime");
 			}
 		}
 
@@ -276,7 +253,7 @@ namespace F.Model
 			set
 			{
 				mobilelink = value;
-				OnPropertyChanged("MobileLink");
+				//OnPropertyChanged("MobileLink");
 			}
 		}
 
@@ -290,7 +267,7 @@ namespace F.Model
 			set
 			{
 				link = value;
-				OnPropertyChanged("Link");
+				//OnPropertyChanged("Link");
 			}
 		}
 
@@ -301,46 +278,15 @@ namespace F.Model
 			// checks to see if the property that has been changed has a handler associated with it
 			// if so, only then do we raise an event
 			// we don't want to raise an event unless there is a handler for it or we will cause a problem
-			if(PropertyChanged != null)
-			{ 
-				PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			if (PropertyChanged != null)
+			{
+				//PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 
 		// Constructor of AccuWeather Class
 		// constructor should be right below all properties and events
 		// but right before any other method
-		public AccuWeather()
-		{
-			// We only want to simulate test date for display when we are testing to see if it binds properly to our XAML front end
-			// We don't really want this information to be displayed to the user when the application runs for real
-			// So we use DesignerProperties.DependencyObject()
-			//
-			// Note : We could have also done something like this (i.e. DesignerProperties stuff) from WeatherVM to check if we are in design mode. 
-			// But since we are doing it here, we don't have to do it there.
-			//
-			// What this DependencyObject stuff will do is display it in our XAML view in Visual Studio
-			// but will NOT show it when we compile & run the application (both in Debug and without Debug mode).
-			if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
-			{
-				Temperature = new Temperature()
-				{
-					Imperial = new Imperial()
-					{
-						Value = 88,
-						Unit = "F",
-						UnitType = 18
-					},
-					Metric = new Metric()
-					{
-						Value = 25.8,
-						Unit = "C",
-						UnitType = 17
-					}
-				};
 
-				WeatherText = "Cloudy";
-			}
-		}
 	}
 }

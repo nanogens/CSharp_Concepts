@@ -40,7 +40,7 @@ namespace F.ViewModel
 		{
 			// to hold the result
 			AccuWeather result = new AccuWeather();
-
+			var data = new List<AccuWeather>();
 			// Now we begint he process of constructing the request string to be sent request to AccuWeather
 			// format will allow us to change the string with place holders into string with actual values for {0} and {1}
 			//string url = string.Format(BASE_URL, LOCATION_KEY, API_KEY);
@@ -59,7 +59,9 @@ namespace F.ViewModel
 
 				// now to convert the Json we got into C# object
 				// this method will return a deserialized JSON in the form of an AccuWeather object
-				result = JsonConvert.DeserializeObject<AccuWeather>(json);
+				data = JsonConvert.DeserializeObject<List<AccuWeather>>(json);
+				//result = JsonConvert.DeserializeObject<Acc>(json);
+				result = data[0];
 
 				// NOTE : We get only 20 requests a day we can execute against the AccuWeather server with our free account.
 				// If we happen to use up all 20 requests, we have to wait till the next day.
