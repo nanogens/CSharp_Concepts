@@ -45,7 +45,6 @@ D:\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\x64\e_sqlite3.dll
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\CSharp_Concepts.exe.config
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\CSharp_Concepts.exe
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\CSharp_Concepts.pdb
-D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csprojResolveAssemblyReference.cache
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.Simple_Form.resources
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.exe

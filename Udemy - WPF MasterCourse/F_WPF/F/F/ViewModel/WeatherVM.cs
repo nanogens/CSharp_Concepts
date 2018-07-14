@@ -11,12 +11,12 @@ namespace F.ViewModel
 {
 	public class WeatherVM
 	{
-		public AccuWeather Weather { get; set; }
+		public CurrentConditions Weather { get; set; }
 
-		// Initialize the Weather properties to our default values (which we set in AccuWeather class constructor - near the bottom of the class)
+		// Initialize the Weather properties to our default values (which we set in CurrentConditions class constructor - near the bottom of the class)
 		public WeatherVM()
 		{
-			Weather = new AccuWeather();
+			Weather = new CurrentConditions();
 		}
 	}
 }

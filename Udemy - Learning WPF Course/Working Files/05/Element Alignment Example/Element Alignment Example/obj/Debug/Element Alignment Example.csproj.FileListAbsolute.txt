@@ -29,7 +29,6 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\bin\Debug\Element Alignment Example.exe.config
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\bin\Debug\Element Alignment Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\bin\Debug\Element Alignment Example.pdb
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\Element Alignment Example.csprojResolveAssemblyReference.cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\MainWindow.g.cs
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\App.g.cs
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\Element Alignment Example_MarkupCompile.cache

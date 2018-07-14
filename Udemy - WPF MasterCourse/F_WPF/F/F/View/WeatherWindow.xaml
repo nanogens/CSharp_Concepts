@@ -23,7 +23,7 @@
                    Margin="0 20 0 0"
                    FontSize="20"
                    FontWeight="Bold"/>
-        <TextBlock Text="{Binding Weather.Temperature.Metric.Value}"
+        <TextBlock Text="none"
                    Margin="0 60 0 0"
                    FontSize="40"
                    FontWeight="ExtraBold"/>

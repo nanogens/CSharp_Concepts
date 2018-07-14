@@ -34,7 +34,7 @@ namespace F.Model
 	// 1. add using System.ComponentModel namespace at the top
 	// 2. implent the event handler PropertyChanged below
 	// set is what makes the property change because in there is where we assign a new value
-	public class AccuWeather : INotifyPropertyChanged
+	public class CurrentConditions : INotifyPropertyChanged
 	{
 		// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
 		// So we exclude that line from Value (set), Unit (set) and UnitType (set).
@@ -141,7 +141,7 @@ namespace F.Model
 				set
 				{
 					metric = value;
-					//OnPropertyChanged("Metric");
+					OnPropertyChanged("Metric");
 				}
 			}
 
@@ -155,7 +155,7 @@ namespace F.Model
 				set
 				{
 					imperial = value;
-					//OnPropertyChanged("Imperial");
+					OnPropertyChanged("Imperial");
 				}
 			}
 
@@ -168,7 +168,7 @@ namespace F.Model
 				// we don't want to raise an event unless there is a handler for it or we will cause a problem
 				if (PropertyChanged != null)
 				{
-					//PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+					PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 				}
 			}
 		}
@@ -183,7 +183,7 @@ namespace F.Model
 			set
 			{
 				localObservationDateTime = value;
-				//OnPropertyChanged("LocalObservationDateTime");
+				OnPropertyChanged("LocalObservationDateTime");
 			}
 		}
 
@@ -197,7 +197,7 @@ namespace F.Model
 			set
 			{
 				epochTime = value;
-				//OnPropertyChanged("EpochTime");
+				OnPropertyChanged("EpochTime");
 			}
 		}
 
@@ -211,7 +211,7 @@ namespace F.Model
 			set
 			{
 				weathertext = value;
-				//OnPropertyChanged("WeatherText");
+				OnPropertyChanged("WeatherText");
 			}
 		}
 
@@ -225,7 +225,7 @@ namespace F.Model
 			set
 			{
 				weatherIcon = value;
-				//OnPropertyChanged("WeatherIcon");
+				OnPropertyChanged("WeatherIcon");
 			}
 		}
 
@@ -239,7 +239,7 @@ namespace F.Model
 			set
 			{
 				isdaytime = value;
-				//OnPropertyChanged("IsDayTime");
+				OnPropertyChanged("IsDayTime");
 			}
 		}
 
@@ -253,7 +253,7 @@ namespace F.Model
 			set
 			{
 				mobilelink = value;
-				//OnPropertyChanged("MobileLink");
+				OnPropertyChanged("MobileLink");
 			}
 		}
 
@@ -267,7 +267,7 @@ namespace F.Model
 			set
 			{
 				link = value;
-				//OnPropertyChanged("Link");
+				OnPropertyChanged("Link");
 			}
 		}
 
@@ -280,13 +280,46 @@ namespace F.Model
 			// we don't want to raise an event unless there is a handler for it or we will cause a problem
 			if (PropertyChanged != null)
 			{
-				//PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+				PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 
 		// Constructor of AccuWeather Class
 		// constructor should be right below all properties and events
 		// but right before any other method
-
+		public CurrentConditions()
+		{
+			// We only want to simulate test date for display when we are testing to see if it binds properly to our XAML front end
+			// We don't really want this information to be displayed to the user when the application runs for real
+			// So we use DesignerProperties.DependencyObject()
+			//
+			// Note : We could have also done something like this (i.e. DesignerProperties stuff) from WeatherVM to check if we are in design mode. 
+			// But since we are doing it here, we don't have to do it there.
+			//
+			// What this DependencyObject stuff will do is display it in our XAML view in Visual Studio
+			// but will NOT show it when we compile & run the application (both in Debug and without Debug mode).
+			if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
+			{
+				/*
+				Temperature = new Temperature()
+				{
+					Imperial = new Imperial()
+					{
+						Value = 88,
+						Unit = "F",
+						UnitType = 18
+					},
+					Metric = new Metric()
+					{
+						Value = 25.8,
+						Unit = "C",
+						UnitType = 17
+					}
+				};
+				*/
+				WeatherText = "Cloudy";
+			}
+		}
+		
 	}
 }

@@ -35,7 +35,7 @@ namespace F.View
 
 		private async void GetWeather()
 		{
-			var weather = await WeatherAPI.GetWeatherInformationAsync("55488"); 
+			var weather = await WeatherAPI.GetWeatherInformationAsync("Txz"); 
 		}
 	}
 }
