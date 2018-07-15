@@ -46,3 +46,4 @@ D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\obj\Debug\E.csproj.
 E:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\bin\Debug\E.exe.config
 E:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\obj\Debug\E.exe
 E:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\obj\Debug\E.pdb
+D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\obj\Debug\E.csprojResolveAssemblyReference.cache

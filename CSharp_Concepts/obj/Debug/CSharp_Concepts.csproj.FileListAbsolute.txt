@@ -49,3 +49,4 @@ D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.Simple_Form.
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.exe
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.pdb
+D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csprojResolveAssemblyReference.cache

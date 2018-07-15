@@ -39,3 +39,4 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element A
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\Element Alignment Example.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\Element Alignment Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\Element Alignment Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Element Alignment Example\Element Alignment Example\obj\Debug\Element Alignment Example.csprojResolveAssemblyReference.cache

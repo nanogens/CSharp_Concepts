@@ -53,3 +53,4 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property 
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\04\Property Elements Example\Property Elements Example\obj\Debug\Property Elements Example.csprojResolveAssemblyReference.cache

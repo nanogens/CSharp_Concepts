@@ -29,6 +29,113 @@ using System.ComponentModel;
 
 namespace F.Model
 {
+	// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
+	// So we exclude that line from Value (set), Unit (set) and UnitType (set).
+	// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
+	// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
+	public class Metric
+	{
+		private double value_metric;
+		private string unit_metric;
+		private int unitType_metric;
+
+		public double Value
+		{
+			get
+			{
+				return value_metric;
+			}
+			set
+			{
+				value_metric = value;
+			}
+		}
+		public string Unit
+		{
+			get
+			{
+				return unit_metric;
+			}
+			set
+			{
+				unit_metric = value;
+			}
+		}
+		public int UnitType
+		{
+			get
+			{
+				return unitType_metric;
+			}
+			set
+			{
+				unitType_metric = value;
+			}
+		}
+	}
+
+	// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
+	// So we exclude that line from Value (set), Unit (set) and UnitType (set).
+	// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
+	// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
+	public class Imperial
+	{
+		private int value_imperial;
+		public int Value
+		{
+			get
+			{
+				return value_imperial;
+			}
+			set
+			{
+				value_imperial = value;
+			}
+		}
+
+		private string unit_imperial;
+		public string Unit
+		{
+			get
+			{
+				return unit_imperial;
+			}
+			set
+			{
+				unit_imperial = value;
+			}
+		}
+
+		private int unittype_imperial;
+		public int UnitType
+		{
+			get
+			{
+				return unittype_imperial;
+			}
+			set
+			{
+				unittype_imperial = value;
+			}
+		}
+	}
+
+
+	public class Temperature
+	{
+		private Metric metric;
+		public Metric Metric
+		{
+			get
+			{
+				return metric;
+			}
+			set
+			{
+				metric = value;
+			}
+		}
+	}
 
 	// to implement INotifyPropertyChanged we need to do 2 things.
 	// 1. add using System.ComponentModel namespace at the top
@@ -36,143 +143,36 @@ namespace F.Model
 	// set is what makes the property change because in there is where we assign a new value
 	public class CurrentConditions : INotifyPropertyChanged
 	{
-		// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
-		// So we exclude that line from Value (set), Unit (set) and UnitType (set).
-		// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
-		// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
-		public class Metric
+		private Temperature temp;
+		public Temperature Temperature
 		{
-			private double value_metric;
-			public double Value
+			get
 			{
-				get
-				{
-					return value_metric;
-				}
-				set
-				{
-					value_metric = value;
-				}
+				return temp;
 			}
-
-			private string unit_metric;
-			public string Unit
+			set
 			{
-				get
-				{
-					return unit_metric;
-				}
-				set
-				{
-					unit_metric = value;
-				}
-			}
-
-			private int unitType_metric;
-			public int UnitType
-			{
-				get
-				{
-					return unitType_metric;
-				}
-				set
-				{
-					unitType_metric = value;
-				}
+				temp = value;
+				OnPropertyChanged("Temperature");
 			}
 		}
 
-		// Note : For Metric and Imperial classes, we do not need to raise an OnPropertyChanged() event.
-		// So we exclude that line from Value (set), Unit (set) and UnitType (set).
-		// When we included an OnPropertyChanged() event, the JSON deserializer crashed with some bullshit message.
-		// So we exclude it.  Imperial and Metric values are simply assigned without raising an event.
-		public class Imperial
-		{
-			private int value_imperial;
-			public int Value
-			{
-				get
+		/*
+				private Metric metric;
+				// We need the OnPropertyChanged() event raised for Temperature (but not Metric and Imperial properties above).
+				public Metric Temperature 
 				{
-					return value_imperial;
+					get
+					{
+						return metric;
+					}
+					set
+					{
+						metric = value;
+						OnPropertyChanged("Temperature_Metric");
+					}
 				}
-				set
-				{
-					value_imperial = value;
-				}
-			}
-
-			private string unit_imperial;
-			public string Unit
-			{
-				get
-				{
-					return unit_imperial;
-				}
-				set
-				{
-					unit_imperial = value;
-				}
-			}
-
-			private int unittype_imperial;
-			public int UnitType
-			{
-				get
-				{
-					return unittype_imperial;
-				}
-				set
-				{
-					unittype_imperial = value;
-				}
-			}
-		}
-
-		// We need the OnPropertyChanged() event raised for Temperature (but not Metric and Imperial properties above).
-		public class Temperature 
-		{
-			private Metric metric;
-			public Metric Metric
-			{
-				get
-				{
-					return metric;
-				}
-				set
-				{
-					metric = value;
-					OnPropertyChanged("Metric");
-				}
-			}
-
-			private Imperial imperial;
-			public Imperial Imperial
-			{
-				get
-				{
-					return imperial;
-				}
-				set
-				{
-					imperial = value;
-					OnPropertyChanged("Imperial");
-				}
-			}
-
-			// this causes an event to be raised everytime a property changes (due to set)
-			public event PropertyChangedEventHandler PropertyChanged;
-			private void OnPropertyChanged(string propertyName)
-			{
-				// checks to see if the property that has been changed has a handler associated with it
-				// if so, only then do we raise an event
-				// we don't want to raise an event unless there is a handler for it or we will cause a problem
-				if (PropertyChanged != null)
-				{
-					PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-				}
-			}
-		}
-
+		*/
 		private DateTime localObservationDateTime;
 		public DateTime LocalObservationDateTime
 		{
@@ -300,26 +300,21 @@ namespace F.Model
 			// but will NOT show it when we compile & run the application (both in Debug and without Debug mode).
 			if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
 			{
-				/*
-				Temperature = new Temperature()
-				{
-					Imperial = new Imperial()
-					{
-						Value = 88,
-						Unit = "F",
-						UnitType = 18
-					},
-					Metric = new Metric()
-					{
-						Value = 25.8,
-						Unit = "C",
-						UnitType = 17
-					}
-				};
-				*/
+				Temperature t = new Temperature();
+
+				Metric m = new Metric();
+				m.Value = 25.5;
+				m.UnitType = 17;
+				m.Unit = "C";
+				t.Metric = m;
+
+				Temperature = t;
+
+
+
 				WeatherText = "Cloudy";
 			}
 		}
-		
+
 	}
 }
