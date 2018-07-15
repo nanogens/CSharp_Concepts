@@ -300,18 +300,18 @@ namespace F.Model
 			// but will NOT show it when we compile & run the application (both in Debug and without Debug mode).
 			if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
 			{
+				// TEMPERATURE ---------
 				Temperature t = new Temperature();
 
 				Metric m = new Metric();
 				m.Value = 25.5;
 				m.UnitType = 17;
 				m.Unit = "C";
-				t.Metric = m;
 
+				t.Metric = m;
 				Temperature = t;
 
-
-
+				// WEATHERTEXT ---------
 				WeatherText = "Cloudy";
 			}
 		}
