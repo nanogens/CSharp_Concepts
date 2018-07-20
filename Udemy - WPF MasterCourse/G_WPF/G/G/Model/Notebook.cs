@@ -8,6 +8,7 @@ namespace G.Model
 {
 	class Notebook
 	{
+		// Id ----
 		private int id;
 		public int Id
 		{
@@ -15,26 +16,20 @@ namespace G.Model
 			set { id = value; }
 		}
 
-		// --------
-
+		// UserId --------
 		private int userId;
-
 		public int UserId
 		{
 			get { return userId; }
 			set { userId = value; }
 		}
 
-		// --------
-
+		// Name --------
 		private string name;
-
 		public string Name
 		{
 			get { return name; }
 			set { name = value; }
 		}
-
-
 	}
 }

@@ -8,6 +8,7 @@ namespace G.Model
 {
 	public class User
 	{
+		// Id -----
 		private int id;
 		public int Id
 		{
@@ -15,8 +16,7 @@ namespace G.Model
 			set { id = value; }
 		}
 
-		// -----
-
+		// Name -----
 		private string name;
 		public string Name
 		{
@@ -24,8 +24,7 @@ namespace G.Model
 			set { name = value; }
 		}
 
-		// -----
-
+		// Username -----
 		private string username;
 		public string Username
 		{
@@ -33,8 +32,7 @@ namespace G.Model
 			set { username = value; }
 		}
 
-		// -----
-
+		// Email -----
 		private string email;
 		public string Email
 		{
@@ -42,10 +40,8 @@ namespace G.Model
 			set { email = value; }
 		}
 
-		// ----
-
+		// Password ----
 		private string password;
-
 		public string Password
 		{
 			get { return password; }
