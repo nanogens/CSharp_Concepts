@@ -39,3 +39,17 @@ D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.Propertie
 D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.exe
 D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\bin\Debug\A.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\bin\Debug\A.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\bin\Debug\A.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\MainWindow.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\App.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A_MarkupCompile.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A_MarkupCompile.lref
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\MainWindow.baml
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.g.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.Properties.Resources.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.csproj.GenerateResource.Cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\A_WPF\A\obj\Debug\A.pdb

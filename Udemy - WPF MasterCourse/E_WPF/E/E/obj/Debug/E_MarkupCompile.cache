@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\obj\Debug\
+C:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\obj\Debug\
 E
 none
 false
 DEBUG;TRACE
-\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\App.xaml
+C:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\E_WPF\E\E\App.xaml
 11151548125
 
 101537104540
-14-2091977374
+141045885295
 MainWindow.xaml;
 
 True

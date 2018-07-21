@@ -52,3 +52,17 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Pa
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\bin\Debug\Canvas Panel Example.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\bin\Debug\Canvas Panel Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\bin\Debug\Canvas Panel Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\MainWindow.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\App.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example_MarkupCompile.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example_MarkupCompile.lref
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\MainWindow.baml
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.g.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas_Panel_Example.Properties.Resources.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.csproj.GenerateResource.Cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\Canvas Panel Example\Canvas Panel Example\obj\Debug\Canvas Panel Example.pdb

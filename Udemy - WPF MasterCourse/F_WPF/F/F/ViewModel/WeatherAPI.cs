@@ -41,7 +41,7 @@ namespace F.ViewModel
 		// if something is awaited, it will be of type AccuWeather
 		public static async Task<CurrentConditions> GetWeatherInformationAsync(string q)
 		{
-			
+
 			// AUTOCOMPLETE ---------------------------------------------------------
 			AutoComplete cities = new AutoComplete();
 			var data_city = new List<AutoComplete>();
@@ -60,7 +60,7 @@ namespace F.ViewModel
 					cities.Key = "55488";  // default to Toronto
 				}
 			}
-			
+
 
 
 			// CURRENTCONDITIONS ---------------------------------------------------------
@@ -88,7 +88,7 @@ namespace F.ViewModel
 				data_condition = JsonConvert.DeserializeObject<List<CurrentConditions>>(json);
 				//result = JsonConvert.DeserializeObject<Acc>(json);
 				condition = data_condition[0];
-				
+
 				// NOTE : We get only 20 requests a day we can execute against the AccuWeather server with our free account.
 				// If we happen to use up all 20 requests, we have to wait till the next day.
 				// Check to see if json string does not have a proper reply from the server, we may have exceeded our 20 query limit.

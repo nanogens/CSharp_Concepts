@@ -52,3 +52,17 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox E
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\bin\Debug\ListBox Example.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\bin\Debug\ListBox Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\bin\Debug\ListBox Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\MainWindow.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\App.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example_MarkupCompile.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example_MarkupCompile.lref
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\MainWindow.baml
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.g.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox_Example.Properties.Resources.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.csproj.GenerateResource.Cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\09\ListBox Example\ListBox Example\obj\Debug\ListBox Example.pdb

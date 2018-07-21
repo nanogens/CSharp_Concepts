@@ -17,17 +17,17 @@
     
     <Grid DataContext="{StaticResource vm}">
         <StackPanel Margin="10"
-                    DataContext="{Binding Weather}"/>
+                    DataContext="{Binding Weather.Current_Conditions}"/>
         <TextBox />
         <TextBlock Text="Paris"
                    Margin="0 20 0 0"
                    FontSize="20"
                    FontWeight="Bold"/>
-        <TextBlock Text="{Binding Weather.WeatherText}"
+        <TextBlock Text="{Binding Weather.Current_Conditions.Temperature.Metric.Value}"
                    Margin="0 60 0 0"
                    FontSize="40"
                    FontWeight="ExtraBold"/>
-        <TextBlock Text="{Binding Weather.Temperature.Metric.Value}"
+        <TextBlock Text="{Binding Weather.Current_Conditions.WeatherText}"
                    FontSize="15"
                    FontWeight="DemiBold"/>
         <TextBlock Text="UV 7"

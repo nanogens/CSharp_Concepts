@@ -52,3 +52,17 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\bin\Debug\DockPanel Example.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\bin\Debug\DockPanel Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\bin\Debug\DockPanel Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\MainWindow.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\App.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example_MarkupCompile.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example_MarkupCompile.lref
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\MainWindow.baml
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.g.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel_Example.Properties.Resources.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.csproj.GenerateResource.Cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\DockPanel Example\DockPanel Example\obj\Debug\DockPanel Example.pdb

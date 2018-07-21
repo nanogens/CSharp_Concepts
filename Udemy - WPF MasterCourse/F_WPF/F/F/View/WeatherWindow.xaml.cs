@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 // to access WeatherAPI
 using F.ViewModel;
 
+using System.ComponentModel;
+
 namespace F.View
 {
 	/// <summary>
@@ -25,17 +27,6 @@ namespace F.View
 		public WeatherWindow()
 		{
 			InitializeComponent();
-
-			// we need to make this method an Awaited method.
-			// we cannot do that here in the constructor. 
-			// we need to do it outside the constructor.
-			// the function which does it will be defined as an async method
-			GetWeather();
-		}
-
-		private async void GetWeather()
-		{
-			var weather = await WeatherAPI.GetWeatherInformationAsync("Txz"); 
 		}
 	}
 }

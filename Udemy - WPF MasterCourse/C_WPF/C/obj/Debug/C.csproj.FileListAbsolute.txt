@@ -15,3 +15,9 @@ D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\bin\Debug\C.exe
 D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\bin\Debug\C.pdb
 D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\obj\Debug\C.exe
 D:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\obj\Debug\C.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\bin\Debug\C.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\bin\Debug\C.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\bin\Debug\C.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\obj\Debug\C.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\obj\Debug\C.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\C_WPF\C\obj\Debug\C.pdb

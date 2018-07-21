@@ -50,3 +50,14 @@ D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csproj.Gener
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.exe
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.pdb
 D:\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csprojResolveAssemblyReference.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\x86\e_sqlite3.dll
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\x64\e_sqlite3.dll
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\CSharp_Concepts.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\CSharp_Concepts.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\bin\Debug\CSharp_Concepts.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csprojResolveAssemblyReference.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.Simple_Form.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csproj.GenerateResource.Cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\CSharp_Concepts\obj\Debug\CSharp_Concepts.pdb
