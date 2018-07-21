@@ -152,8 +152,8 @@ namespace F.Model
 		}
 	}
 
-	public class Temperature
-	{
+	public class Temperature : INotifyPropertyChanged
+    {
 		private Metric metric = new Metric();
 		public Metric Metric
 		{
@@ -164,10 +164,22 @@ namespace F.Model
 			set
 			{
 				metric = value;
-			}
+                OnPropertyChanged("Temperature_Metric");
+            }
 		}
-	}
-
+        // this causes an event to be raised everytime a property changes (due to set)
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged(string propertyName)
+        {
+            // checks to see if the property that has been changed has a handler associated with it
+            // if so, only then do we raise an event
+            // we don't want to raise an event unless there is a handler for it or we will cause a problem
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
 
 	public class AccuWeather : INotifyPropertyChanged
 	{
@@ -178,29 +190,35 @@ namespace F.Model
 			set
 			{
 				current_conditions = value;
-				//OnPropertyChanged("Current_Conditions");
+				OnPropertyChanged("Current_Conditions");
 			}
 		}
 
 		// this causes an event to be raised everytime a property changes (due to set)
 		public event PropertyChangedEventHandler PropertyChanged;
 
+
 		private Temperature t = new Temperature();
 		private Metric m = new Metric();
 		public AccuWeather()
 		{
-			m.Value = 25.5;
-			m.UnitType = 17;
-			m.Unit = "C";
-			t.Metric = m;
+            
+            if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
+            {
+                m.Value = 13.5;
+                m.UnitType = 17;
+                m.Unit = "C";
+                t.Metric = m;
 
-			Current_Conditions = new CurrentConditions()
-			{
-				Temperature = t,
+                Current_Conditions = new CurrentConditions()
+                {
+                    Temperature = t,
 
-				// WEATHERTEXT ---------
-				WeatherText = "Cloudy"
-			};
+                    // WEATHERTEXT ---------
+                    WeatherText = "Cloudy"
+                };
+            }
+            
 		}
 
 		private void OnPropertyChanged(string propertyName)
@@ -241,7 +259,7 @@ namespace F.Model
 			set
 			{
 				temp = value;
-				//OnPropertyChanged("Temperature");
+				OnPropertyChanged("Temperature");
 			}
 		}
 

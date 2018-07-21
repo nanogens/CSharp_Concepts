@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\D_WPF\D\obj\Debug\
+C:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\D_WPF\D\obj\Debug\
 D
 none
 false
 DEBUG;TRACE
-\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\D_WPF\D\App.xaml
+C:\GitHub\CSharp_Concepts\Udemy - WPF MasterCourse\D_WPF\D\App.xaml
 31244030851
-21191723722
+2814059475
 12-1017100107
-692028753728
+69-1689420568
 Controls\ContactControl.xaml;MainWindow.xaml;NewContactWindow.xaml;
 
 True

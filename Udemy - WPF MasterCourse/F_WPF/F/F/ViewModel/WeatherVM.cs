@@ -34,8 +34,7 @@ namespace F.ViewModel
 		private async void GetWeather()
 		{
 			var weather = await WeatherAPI.GetWeatherInformationAsync("Toronto");
-			Weather.Current_Conditions.WeatherText = weather.WeatherText;
-			Weather.Current_Conditions.Temperature.Metric.Value = weather.Temperature.Metric.Value;
+			Weather.Current_Conditions = weather;
 		}
 	}
 }

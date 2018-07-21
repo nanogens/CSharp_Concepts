@@ -52,3 +52,17 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Tran
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.csproj.GenerateResource.Cache
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.exe
 D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\bin\Debug\Skew Transform Example.exe.config
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\bin\Debug\Skew Transform Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\bin\Debug\Skew Transform Example.pdb
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\MainWindow.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\App.g.cs
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example_MarkupCompile.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example_MarkupCompile.lref
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\MainWindow.baml
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.g.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew_Transform_Example.Properties.Resources.resources
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.csproj.GenerateResource.Cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.csproj.CoreCompileInputs.cache
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.exe
+\\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Skew Transform Example\Skew Transform Example\obj\Debug\Skew Transform Example.pdb
