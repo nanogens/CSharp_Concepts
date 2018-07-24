@@ -12,7 +12,7 @@ using SQLite;
 
 namespace G.Model
 {
-	class Notebook : INotifyPropertyChanged
+	public class Notebook : INotifyPropertyChanged
 	{
 		// Id ----
 		private int id;

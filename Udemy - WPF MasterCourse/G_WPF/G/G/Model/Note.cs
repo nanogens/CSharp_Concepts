@@ -9,7 +9,7 @@ using System.ComponentModel;
 
 namespace G.Model
 {
-	class Note : INotifyPropertyChanged
+	public class Note : INotifyPropertyChanged
 	{
 		// Id ----------
 		private int id;
