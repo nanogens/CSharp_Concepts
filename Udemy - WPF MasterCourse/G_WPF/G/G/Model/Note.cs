@@ -28,8 +28,8 @@ namespace G.Model
 		}
 
 		// Title ----------
-		private int title;
-		public int Title
+		private string title;
+		public string Title
 		{
 			get { return title; }
 			set { title = value; }

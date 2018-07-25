@@ -41,7 +41,30 @@ namespace G.ViewModel
 			// we are simply creating the properties that will eventually be bound to elements inside of the view
 			// we are creating the properties & commands ready to be bound
 			NewNoteCommand = new NewNoteCommand(this);
-			NewNoteCommand = new NewNoteCommand(this);
+			NewNotebookCommand = new NewNotebookCommand(this);
+		}
+
+		public void CreateNotebook()
+		{
+			Notebook newNotebook = new Notebook()
+			{
+				Name = "New Notebook"
+			};
+			DatabaseHelper.Insert(newNotebook);
+		}
+
+		public void CreateNote(int notebookId)
+		{
+			Note newNote = new Note()
+			{
+				NotebookId = notebookId,
+				CreatedTime = DateTime.Now,
+				UpdatedTime = DateTime.Now,
+				Title = "New Note"
+			};
+			// we don't need the angled brackets <Note> to pass in because the 
+			// parameter we are passing in already contains the Note definition
+			DatabaseHelper.Insert(newNote);
 		}
 	}
 }

@@ -28,6 +28,7 @@ namespace G.ViewModel.Commands
 		public void Execute(object parameter)
 		{
 			//TODO: Create new Notebook
+			VM.CreateNotebook();
 		}
 	}
 }
