@@ -18,7 +18,7 @@ namespace G.ViewModel
 		// we make these variables static so we don't have to create an instance of the database helper class
 
 		// to establish were the sql lite database is to be stored
-		private static string dbFile = Path.Combine(Environment.CurrentDirectory, "notesDb.db3");
+		public static string dbFile = Path.Combine(Environment.CurrentDirectory, "notesDb.db3");
 
 		// to establish a generic method, we use <T> to indicate we will be receiving a type
 		public static bool Insert<T>(T item)

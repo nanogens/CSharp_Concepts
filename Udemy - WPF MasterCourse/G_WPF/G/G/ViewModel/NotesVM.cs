@@ -66,5 +66,13 @@ namespace G.ViewModel
 			// parameter we are passing in already contains the Note definition
 			DatabaseHelper.Insert(newNote);
 		}
+
+		public void ReadNotebooks()
+		{
+			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
+			{
+				var notebooks = conn.Table<Notebook>().ToList();
+			}
+		}
 	}
 }
