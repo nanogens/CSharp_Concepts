@@ -42,6 +42,10 @@ namespace G.ViewModel
 			// we are creating the properties & commands ready to be bound
 			NewNoteCommand = new NewNoteCommand(this);
 			NewNotebookCommand = new NewNotebookCommand(this);
+
+			// Initialize both the Notebooks and Notes variables/properties - an observable collection 
+			Notebooks = new ObservableCollection<Notebook>();
+			Notes = new ObservableCollection<Note>();
 		}
 
 		public void CreateNotebook()
@@ -72,6 +76,21 @@ namespace G.ViewModel
 			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
 			{
 				var notebooks = conn.Table<Notebook>().ToList();
+
+				Notebooks.Clear();
+				foreach(var notebook in Notebooks)
+				{
+					Notebooks.Add(notebook); // adding to the same instance of Notebook.  this is bound.
+				}
+			}
+		}
+
+		public void ReadNotes()
+		{
+			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
+			{
+				// filter by NotebookId
+				var notes = conn.Table<Note>().Where(n => n.NotebookId == selectedNotebook);
 			}
 		}
 	}
