@@ -50,7 +50,7 @@
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
                 <Button Content="Speech"
-                        Click="Button_Click"/>
+                        />
             </ToolBar>
         </ToolBarTray>
 
