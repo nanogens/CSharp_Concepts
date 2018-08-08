@@ -47,7 +47,7 @@ namespace G.ViewModel
 			Notebooks = new ObservableCollection<Notebook>();
 			Notes = new ObservableCollection<Note>();
 
-            ReadNotebooks();
+      ReadNotebooks();
 		}
 
 		public void CreateNotebook()
