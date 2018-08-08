@@ -36,7 +36,16 @@ namespace G.View
 
 		private void contentRichTextBox_TextChanged(object sender, TextChangedEventArgs e)
 		{
-			
+			// this is how we can access the text that is inside the textbox
+			int ammountCharacters = (new TextRange(contentRichTextBox.Document.ContentStart, contentRichTextBox.Document.ContentEnd)).Text.Length;
+			// now that we have the ammount of characters, let us now set the text in the statusTextBlock equal to the amount of characters we received above
+			statusTextBlock.Text = $"Document length: {ammountCharacters} characters";
+		}
+
+		private void boldButton_Click(object sender, RoutedEventArgs e)
+		{
+			// the text that needs to be bolded
+			contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Bold);
 		}
 	}
 }

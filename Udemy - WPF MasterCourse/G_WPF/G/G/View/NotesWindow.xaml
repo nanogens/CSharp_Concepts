@@ -51,12 +51,17 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
-        
+
+
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
                 <Button Content="Speech"
                         Click="Button_Click"/>
+                <Button x:Name="boldButton" 
+                        Click="boldButton_Click">
+                    <TextBlock Text="B"
+                               FontWeight="Bold"/>
+                </Button>
             </ToolBar>
         </ToolBarTray>
 
