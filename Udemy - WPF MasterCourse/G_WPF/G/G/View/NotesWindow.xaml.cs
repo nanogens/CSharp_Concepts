@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Speech.Recognition;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -19,9 +21,27 @@ namespace G.View
 	/// </summary>
 	public partial class NotesWindow : Window
 	{
+		// using this we will know when a certain speech has been identified by the microphone by the event handler
+		// and eventually turning on and off these event handlers to start/stop speech recognition
+		SpeechRecognitionEngine recognizer;
+
 		public NotesWindow()
 		{
 			InitializeComponent();
+
+			var currentCulture = (from r in SpeechRecognitionEngine.InstalledRecognizers() 
+													 where r.Culture.Equals(Thread.CurrentThread.CurrentCulture) 
+													 select r).FirstOrDefault();
+			recognizer = new SpeechRecognitionEngine(currentCulture);
+			recognizer.SpeechRecognized += Recognizer_SpeechRecognized; // Recognizer_SpeechRecognized event handler
+		}
+
+		// speech recognizer event handler
+		private void Recognizer_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
+		{
+			string recognizedText = e.Result.Text;
+			// puts the speech data we recognized into words (as a paragraph) and adds it to the contentRichTextBox
+			contentRichTextBox.Document.Blocks.Add(new Paragraph(new Run(recognizedText)));
 		}
 
 		private void MenuItem_Click(object sender, RoutedEventArgs e)
@@ -29,9 +49,21 @@ namespace G.View
 			Application.Current.Shutdown();
 		}
 
-		private void Button_Click(object sender, RoutedEventArgs e)
+		bool isRecognizing = false;
+		private void SpeechButton_Click(object sender, RoutedEventArgs e)
 		{
-
+			// this is to start and stop the recognition of the speech
+			if (!isRecognizing) // if(isRecognizing == false)
+			{
+				// start the speech recognition
+				recognizer.RecognizeAsync(RecognizeMode.Multiple);
+				isRecognizing = true; // "toggle" switch on
+			}
+			else
+			{
+				recognizer.RecognizeAsyncStop();
+				isRecognizing = false;
+			}
 		}
 
 		private void contentRichTextBox_TextChanged(object sender, TextChangedEventArgs e)
