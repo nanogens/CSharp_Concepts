@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -29,17 +30,49 @@ namespace G.View
 		{
 			InitializeComponent();
 
+			#region notes
+			// You need to install Language Packs on windows.
+			// the code SpeechRecognitionEngine.InstalledRecognizers() throw NullExceptions when you dont have any recognizer installed.
+			// See there Add Language Packs to Windows
+			// On Windows 10 it's simple: 
+			// Press Windows Key; 
+			// type "Settings" and press 'Enter'; 
+			// select "Time & Language" then "Region & Language"; 
+			// on "language" section choose "English" (Or Add); 
+			// click in "Options" button and download the "Speech" content.
+			#endregion
+
+			/*
+			foreach (var x in SpeechRecognitionEngine.InstalledRecognizers())
+			{
+				Console.Out.WriteLine(x.Name);
+			}
+			*/
+			/*
 			var currentCulture = (from r in SpeechRecognitionEngine.InstalledRecognizers() 
 													 where r.Culture.Equals(Thread.CurrentThread.CurrentCulture) 
 													 select r).FirstOrDefault();
 			recognizer = new SpeechRecognitionEngine(currentCulture);
-			recognizer.SpeechRecognized += Recognizer_SpeechRecognized; // Recognizer_SpeechRecognized event handler
+			*/
+
+			//var currentCulture = System.Globalization.CultureInfo.CurrentCulture;
+			//recognizer = new SpeechRecognitionEngine();
+
+			//GrammarBuilder builder = new GrammarBuilder();
+			//builder.AppendDictation();
+			//Grammar grammer = new Grammar(builder);
+			//recognizer.LoadGrammar(grammer);
+			//recognizer.SetInputToDefaultAudioDevice();
+
+			//recognizer.SpeechRecognized += Recognizer_SpeechRecognized; // Recognizer_SpeechRecognized event handler
 		}
 
 		// speech recognizer event handler
 		private void Recognizer_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
 		{
+			// the text is what we eventually assign to the contentRichTextBox
 			string recognizedText = e.Result.Text;
+			// not quite as straight forward to assign the string to the contextRichTextBox, but its still quite simple as shown below.
 			// puts the speech data we recognized into words (as a paragraph) and adds it to the contentRichTextBox
 			contentRichTextBox.Document.Blocks.Add(new Paragraph(new Run(recognizedText)));
 		}
@@ -49,20 +82,20 @@ namespace G.View
 			Application.Current.Shutdown();
 		}
 
-		bool isRecognizing = false;
 		private void SpeechButton_Click(object sender, RoutedEventArgs e)
 		{
+			// the ischecked instead of being a boolean (true/false) could be a nullable boolean (true/false/null)
+			// we have casted the nullable boolean that ischecked generates into a boolean.
+			bool isButtonEnabled = (sender as ToggleButton).IsChecked ?? false;
 			// this is to start and stop the recognition of the speech
-			if (!isRecognizing) // if(isRecognizing == false)
+			if (isButtonEnabled) // if(isRecognizing == false)
 			{
 				// start the speech recognition
 				recognizer.RecognizeAsync(RecognizeMode.Multiple);
-				isRecognizing = true; // "toggle" switch on
 			}
 			else
 			{
 				recognizer.RecognizeAsyncStop();
-				isRecognizing = false;
 			}
 		}
 
@@ -76,8 +109,23 @@ namespace G.View
 
 		private void boldButton_Click(object sender, RoutedEventArgs e)
 		{
-			// the text that needs to be bolded
-			contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Bold);
+			// the ischecked instead of being a boolean (true/false) could be a nullable boolean (true/false/null)
+			// we have casted the nullable boolean that ischecked generates into a boolean.
+			bool isButtonEnabled = (sender as ToggleButton).IsChecked ?? false;
+			// this is to start and stop the recognition of the speech
+			if (isButtonEnabled) // if(isRecognizing == false)
+			{
+				// the text that needs to be bolded
+				contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Bold);
+			}
+			else
+			{
+				// the text that needs to be normal
+				contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Normal);
+			}
+
+
+
 		}
 	}
 }

@@ -55,13 +55,13 @@
 
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
-                <Button Content="Speech"
+                <ToggleButton Content="Speech"
                         Click="SpeechButton_Click"/>
-                <Button x:Name="boldButton" 
+                <ToggleButton x:Name="boldButton" 
                         Click="boldButton_Click">
                     <TextBlock Text="B"
                                FontWeight="Bold"/>
-                </Button>
+                </ToggleButton>
             </ToolBar>
         </ToolBarTray>
 
