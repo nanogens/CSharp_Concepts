@@ -62,6 +62,11 @@
                     <TextBlock Text="B"
                                FontWeight="Bold"/>
                 </ToggleButton>
+                <ToggleButton x:Name="underlineButton" 
+                        Click="underlineButton_Click">
+                    <TextBlock Text="U"
+                               TextDecorations="Underline"/>
+                </ToggleButton>                
             </ToolBar>
         </ToolBarTray>
 

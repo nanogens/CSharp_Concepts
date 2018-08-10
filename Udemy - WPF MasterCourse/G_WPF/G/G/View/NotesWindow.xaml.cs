@@ -123,9 +123,22 @@ namespace G.View
 				// the text that needs to be normal
 				contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontWeightProperty, FontWeights.Normal);
 			}
-
-
-
 		}
-	}
+
+        private void underlineButton_Click(object sender, RoutedEventArgs e)
+        {
+            bool isButtonEnabled = (sender as ToggleButton).IsChecked ?? false;
+
+            if (isButtonEnabled)
+            {
+                contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Underline);
+            }
+            else
+            {
+                TextDecorationCollection textDecorations;
+                (contentRichTextBox.Selection.GetPropertyValue(Inline.TextDecorationsProperty) as TextDecorationCollection);
+                contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, textDecorations);
+            }
+        }
+    }
 }

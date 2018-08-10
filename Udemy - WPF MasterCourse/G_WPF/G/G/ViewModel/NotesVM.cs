@@ -47,7 +47,7 @@ namespace G.ViewModel
 			Notebooks = new ObservableCollection<Notebook>();
 			Notes = new ObservableCollection<Note>();
 
-      ReadNotebooks();
+            ReadNotebooks();
 		}
 
 		public void CreateNotebook()
@@ -73,11 +73,15 @@ namespace G.ViewModel
 			DatabaseHelper.Insert(newNote);
 		}
 
-		public void ReadNotebooks()
-		{
-			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
-			{
-				var notebooks = conn.Table<Notebook>().ToList();
+        public void ReadNotebooks()
+        {
+            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
+            {
+                var notebooks = conn.Table<Notebook>().ToList();
+                if (notebooks == null) // just in case no notebooks exists, we create one on startup
+                {
+                    CreateNotebook();
+                }
 
 				Notebooks.Clear();
 				foreach(var notebook in notebooks)
