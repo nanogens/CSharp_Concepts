@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace G.View
 {
 	/// <summary>
@@ -65,6 +66,13 @@ namespace G.View
 			//recognizer.SetInputToDefaultAudioDevice();
 
 			//recognizer.SpeechRecognized += Recognizer_SpeechRecognized; // Recognizer_SpeechRecognized event handler
+
+			// Populate the combo boxes
+			var fontFamilies = Fonts.SystemFontFamilies.OrderBy(f => f.Source);
+			fontFamilyComboBox.ItemsSource = fontFamilies;
+
+			List<double> fontSizes = new List<double>() { 8, 9, 10, 11, 12, 14, 16, 28, 48, 72 };
+			fontSizeComboBox.ItemsSource = fontSizes;
 		}
 
 		// speech recognizer event handler
@@ -125,20 +133,65 @@ namespace G.View
 			}
 		}
 
-        private void underlineButton_Click(object sender, RoutedEventArgs e)
-        {
-            bool isButtonEnabled = (sender as ToggleButton).IsChecked ?? false;
+		private void underlineButton_Click(object sender, RoutedEventArgs e)
+		{
+			bool isButtonEnabled = (sender as ToggleButton).IsChecked ?? false;
 
-            if (isButtonEnabled)
-            {
-                contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Underline);
-            }
-            else
-            {
-                TextDecorationCollection textDecorations;
-                (contentRichTextBox.Selection.GetPropertyValue(Inline.TextDecorationsProperty) as TextDecorationCollection);
-                contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, textDecorations);
-            }
-        }
-    }
+			if (isButtonEnabled)
+			{
+				contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, TextDecorations.Underline);
+			}
+			else
+			{
+				// In Properties, had to retarget to version 4.6.1 in order to get TryRemove to show up and work as a method for TextDecorationCollection!
+				// The older 4.5x version did not have TryRemove as a method.
+        TextDecorationCollection textDecorations;
+        (contentRichTextBox.Selection.GetPropertyValue(Inline.TextDecorationsProperty) as TextDecorationCollection).TryRemove(TextDecorations.Underline, out textDecorations);
+        contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, textDecorations);
+
+				/*
+				// For use with the older version 4.5.x 
+				try
+				{
+					TextDecorationCollection textDecorations = (contentRichTextBox.Selection.GetPropertyValue(Inline.TextDecorationsProperty) as TextDecorationCollection);
+					if (textDecorations.Remove(TextDecorations.Underline[0]) == true)
+					{
+						contentRichTextBox.Selection.ApplyPropertyValue(Inline.TextDecorationsProperty, textDecorations);
+					}
+				}
+				catch
+				{
+
+				}
+				*/
+			}
+		}
+
+		private void contentRichTextBox_SelectionChanged(object sender, RoutedEventArgs e)
+		{
+			// This stuff below checks to see if the bold (or underline or italic) button has been pressed and accordingly sets its IsChecked flag
+			// When boldButton_Click is called (right after what's below), it detects that bold button's IsChecked flag is set and changes the text property to bold
+			var selectedWeight = contentRichTextBox.Selection.GetPropertyValue(Inline.FontWeightProperty);
+			boldButton.IsChecked = (selectedWeight != DependencyProperty.UnsetValue) && (selectedWeight.Equals(FontWeights.Bold));
+
+			var selecteDecoration = contentRichTextBox.Selection.GetPropertyValue(Inline.TextDecorationsProperty);
+			underlineButton.IsChecked = (selecteDecoration != DependencyProperty.UnsetValue) && (selecteDecoration.Equals(TextDecorations.Underline));
+
+			fontFamilyComboBox.SelectedItem = contentRichTextBox.Selection.GetPropertyValue(Inline.FontFamilyProperty);
+			fontSizeComboBox.Text = (contentRichTextBox.Selection.GetPropertyValue(Inline.FontSizeProperty)).ToString();
+		}
+
+		private void fontFamilyComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
+			if (fontFamilyComboBox.SelectedItem != null)
+			{
+				contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontFamilyProperty, fontFamilyComboBox.SelectedItem);
+			}
+		}
+
+		private void fontSizeComboBox_TextChanged(object sender, RoutedEventArgs e)
+		{
+			contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontSizeProperty, fontSizeComboBox.Text);
+		}
+	}
 }

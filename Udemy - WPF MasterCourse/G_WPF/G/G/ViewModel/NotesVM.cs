@@ -47,7 +47,7 @@ namespace G.ViewModel
 			Notebooks = new ObservableCollection<Notebook>();
 			Notes = new ObservableCollection<Note>();
 
-            ReadNotebooks();
+			ReadNotebooks();
 		}
 
 		public void CreateNotebook()
@@ -73,18 +73,22 @@ namespace G.ViewModel
 			DatabaseHelper.Insert(newNote);
 		}
 
-        public void ReadNotebooks()
-        {
-            using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
-            {
-                var notebooks = conn.Table<Notebook>().ToList();
-                if (notebooks == null) // just in case no notebooks exists, we create one on startup
-                {
-                    CreateNotebook();
-                }
+		public void ReadNotebooks()
+		{
+			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
+			{
+				try// just in case no notebooks exists, we create one on startup
+				{
+					conn.Table<Notebook>().ToList(); // it may return a null
+				}
+				catch(Exception e)
+				{
+					CreateNotebook(); // if a null was returned, we Create the first notebook record
+				}
+				var notebooks = conn.Table<Notebook>().ToList(); // populate the notebooks List
 
 				Notebooks.Clear();
-				foreach(var notebook in notebooks)
+				foreach (var notebook in notebooks)
 				{
 					Notebooks.Add(notebook); // adding to the same instance of Notebook.  this is bound.
 				}
@@ -95,20 +99,20 @@ namespace G.ViewModel
 		{
 			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))
 			{
-                if (SelectedNotebook != null)
-                {
-                    // filter by NotebookId
-                    // identify which note inside of the notebook table has that id
-                    // that way we will be identifying each and every one of the notes
-                    var notes = conn.Table<Note>().Where(n => n.NotebookId == SelectedNotebook.Id).ToList();
+				if (SelectedNotebook != null)
+				{
+					// filter by NotebookId
+					// identify which note inside of the notebook table has that id
+					// that way we will be identifying each and every one of the notes
+					var notes = conn.Table<Note>().Where(n => n.NotebookId == SelectedNotebook.Id).ToList();
 
-                    Notes.Clear();
-                    foreach(var note in notes)
-                    {
-                        Notes.Add(note);
-                    }
-                }
-			}   
+					Notes.Clear();
+					foreach (var note in notes)
+					{
+						Notes.Add(note);
+					}
+				}
+			}
 		}
 	}
 }
