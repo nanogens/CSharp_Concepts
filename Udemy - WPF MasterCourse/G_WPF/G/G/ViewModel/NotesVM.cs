@@ -36,6 +36,7 @@ namespace G.ViewModel
 		public NewNotebookCommand NewNotebookCommand { get; set; }
 		public NewNoteCommand NewNoteCommand { get; set; }
 
+		#region Constructor
 		public NotesVM()
 		{
 			// we are simply creating the properties that will eventually be bound to elements inside of the view
@@ -48,7 +49,9 @@ namespace G.ViewModel
 			Notes = new ObservableCollection<Note>();
 
 			ReadNotebooks();
+			ReadNotes();
 		}
+		#endregion
 
 		public void CreateNotebook()
 		{
@@ -57,6 +60,10 @@ namespace G.ViewModel
 				Name = "New Notebook"
 			};
 			DatabaseHelper.Insert(newNotebook);
+
+			// We are inserting into the database, but we are not updating what is inside the list.
+			// So we have to call ReadNotebook();
+			ReadNotebooks();
 		}
 
 		public void CreateNote(int notebookId)
@@ -71,6 +78,7 @@ namespace G.ViewModel
 			// we don't need the angled brackets <Note> to pass in because the 
 			// parameter we are passing in already contains the Note definition
 			DatabaseHelper.Insert(newNote);
+			ReadNotes();
 		}
 
 		public void ReadNotebooks()

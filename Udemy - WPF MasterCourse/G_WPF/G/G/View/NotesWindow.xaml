@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G.View"
         xmlns:vm="clr-namespace:G.ViewModel"
+        xmlns:uc="clr-namespace:G.View.UserControls"
         mc:Ignorable="d"
         Title="NotesWindow" Height="400" Width="600">
     
@@ -33,12 +34,13 @@
         </StatusBar>
 
         <ListView Width="140"
+                  Background="MidnightBlue"
                   DockPanel.Dock="Left"
                   SelectedItem="{Binding SelectedNotebook, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                   ItemsSource="{Binding Notebooks}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding Name}"/>
+                    <uc:Notebook DisplayNotebook="{Binding}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

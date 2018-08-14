@@ -27,6 +27,7 @@ namespace G.View
 		// and eventually turning on and off these event handlers to start/stop speech recognition
 		SpeechRecognitionEngine recognizer;
 
+		#region Constructor
 		public NotesWindow()
 		{
 			InitializeComponent();
@@ -74,7 +75,9 @@ namespace G.View
 			List<double> fontSizes = new List<double>() { 8, 9, 10, 11, 12, 14, 16, 28, 48, 72 };
 			fontSizeComboBox.ItemsSource = fontSizes;
 		}
+    #endregion
 
+		#region Speech Related Stuff
 		// speech recognizer event handler
 		private void Recognizer_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
 		{
@@ -83,11 +86,6 @@ namespace G.View
 			// not quite as straight forward to assign the string to the contextRichTextBox, but its still quite simple as shown below.
 			// puts the speech data we recognized into words (as a paragraph) and adds it to the contentRichTextBox
 			contentRichTextBox.Document.Blocks.Add(new Paragraph(new Run(recognizedText)));
-		}
-
-		private void MenuItem_Click(object sender, RoutedEventArgs e)
-		{
-			Application.Current.Shutdown();
 		}
 
 		private void SpeechButton_Click(object sender, RoutedEventArgs e)
@@ -106,7 +104,15 @@ namespace G.View
 				recognizer.RecognizeAsyncStop();
 			}
 		}
+    #endregion
 
+    // The Exit button which for some reason we bound to MenuItem
+		private void MenuItem_Click(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Shutdown();
+		}
+
+		#region The Content Rich TextBox
 		private void contentRichTextBox_TextChanged(object sender, TextChangedEventArgs e)
 		{
 			// this is how we can access the text that is inside the textbox
@@ -114,7 +120,9 @@ namespace G.View
 			// now that we have the ammount of characters, let us now set the text in the statusTextBlock equal to the amount of characters we received above
 			statusTextBlock.Text = $"Document length: {ammountCharacters} characters";
 		}
+		#endregion
 
+		#region Text Properties (On Click) - italic, underline, font family, font size
 		private void boldButton_Click(object sender, RoutedEventArgs e)
 		{
 			// the ischecked instead of being a boolean (true/false) could be a nullable boolean (true/false/null)
@@ -193,5 +201,6 @@ namespace G.View
 		{
 			contentRichTextBox.Selection.ApplyPropertyValue(Inline.FontSizeProperty, fontSizeComboBox.Text);
 		}
+		#endregion
 	}
 }
