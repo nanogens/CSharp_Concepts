@@ -27,6 +27,7 @@ namespace G.ViewModel
 			{
 				selectedNotebook = value;
 				//TODO : get notes
+				ReadNotes(); // we need to ReadNotes() when a given notebook has been selected
 			}
 		}
 
