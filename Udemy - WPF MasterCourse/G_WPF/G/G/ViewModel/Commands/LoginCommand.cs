@@ -28,6 +28,7 @@ namespace G.ViewModel.Commands
 		public void Execute(object parameter)
 		{
 			//TODO: Login functionality
+			// From the Execute command we will call the Login Method in LoginVM
 		}
 	}
 }
