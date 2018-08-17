@@ -36,7 +36,7 @@ namespace G.ViewModel
 			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))  // to create the connection to the db
 			{
 				conn.CreateTable<User>(); // create the user table in case it is not there yet
-				conn.Table<User>().Where(u => u.Username == )
+				//conn.Table<User>().Where(u => u.Username == )
 			}
 		}
 	}
