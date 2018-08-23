@@ -33,9 +33,9 @@ namespace G.Model
 		}
 
 		// Lastname - 
-		private int lastname;
+		private string lastname;
 		[MaxLength(50)]
-		public int Lastname
+		public string Lastname
 		{
 			get { return lastname; }
 			set { lastname = value; }

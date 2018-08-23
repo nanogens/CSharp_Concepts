@@ -4,9 +4,25 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G.View"
+        xmlns:vm="clr-namespace:G.ViewModel"
         mc:Ignorable="d"
         Title="LoginWindow" Height="300" Width="300">
-    <Grid>
-        
+    
+    <Window.Resources>
+        <vm:LoginVM x:Key="login"/>
+    </Window.Resources>
+    
+    <Grid DataContext="{StaticResource login}">
+        <StackPanel Margin="20, 0"
+                    Visibility="Collapsed"
+                    VerticalAlignment="Center">
+            <TextBox Text="{Binding User.Username}"/>
+            <TextBox Text="{Binding User.Password}"
+                     Margin="0 5 0 0"/>
+            <Button Margin="0 5 0 0"
+                    Command="{Binding LoginCommand}"
+                    CommandParameter="{Binding User}"
+                    Content="Login"/>
+        </StackPanel>
     </Grid>
 </Window>
