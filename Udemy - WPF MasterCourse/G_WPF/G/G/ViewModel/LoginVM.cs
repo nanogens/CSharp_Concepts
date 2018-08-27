@@ -29,6 +29,7 @@ namespace G.ViewModel
 		{
 			RegisterCommand = new RegisterCommand(this);
 			LoginCommand = new LoginCommand(this);
+			User = new Model.User();  // not present in 
 		}
 
 		public void Login()  // this method will be using the User (which is bound to what we have in the login window) to evaluate if there exist a user with the name & password in the sqllite database
@@ -37,10 +38,10 @@ namespace G.ViewModel
 			{
 				conn.CreateTable<User>(); // create the user table in case it is not there yet
 				var user = conn.Table<User>().Where(u => u.Username == User.Username).FirstOrDefault();
-				
+				// check if the user has a password and compare it to the user's password bound to this class.
 				if(user.Password == User.Password)
 				{
-					//TODO: establish functionality
+					// TODO : establish Login
 				}
 			}
 		}
@@ -50,8 +51,7 @@ namespace G.ViewModel
 			using (SQLite.SQLiteConnection conn = new SQLite.SQLiteConnection(DatabaseHelper.dbFile))  // to create the connection to the db.  Through DaabaseHelper we have access to the db file.
 			{
 				conn.CreateTable<User>(); // create the user table in case it is not there yet
-
-				conn.Insert(User);
+				// will insert the user - the user that is now bound to the property
 				var result = DatabaseHelper.Insert(User);
 				if(result)
 				{

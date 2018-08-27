@@ -23,5 +23,17 @@ namespace G.View
 		{
 			InitializeComponent();
 		}
+
+		private void haveAcccountButton_Click(object sender, RoutedEventArgs e)
+		{
+			registerStackPanel.Visibility = Visibility.Collapsed;
+			loginStackPanel.Visibility = Visibility.Visible;
+		}
+
+		private void noAccountButton_Click(object sender, RoutedEventArgs e)
+		{
+			registerStackPanel.Visibility = Visibility.Visible;
+			loginStackPanel.Visibility = Visibility.Collapsed;
+		}
 	}
 }

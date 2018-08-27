@@ -13,16 +13,48 @@
     </Window.Resources>
     
     <Grid DataContext="{StaticResource login}">
-        <StackPanel Margin="20, 0"
-                    Visibility="Collapsed"
+        <StackPanel x:Name="loginStackPanel" 
+                    Margin="20, 0"
                     VerticalAlignment="Center">
-            <TextBox Text="{Binding User.Username}"/>
+            <TextBox Text="{Binding User.Username}"
+                     Margin="0 5 0 0"/>                     
             <TextBox Text="{Binding User.Password}"
                      Margin="0 5 0 0"/>
             <Button Margin="0 5 0 0"
                     Command="{Binding LoginCommand}"
                     CommandParameter="{Binding User}"
                     Content="Login"/>
+            <Button x:Name="noAccountButton"
+                    Margin="0 5 0 0"
+                    Content="I don't have an account"
+                    HorizontalAlignment="Right"
+                    Click="noAccountButton_Click"/>
+        </StackPanel>
+
+        <StackPanel x:Name="registerStackPanel" 
+                    Visibility="Collapsed"
+                    Margin="20, 0"
+                    VerticalAlignment="Center">
+            <TextBox Text="{Binding User.Username}"
+                     Margin="0 5 0 0"/>
+            <TextBox Text="{Binding User.Email}"
+                     Margin="0 5 0 0"/>
+            <TextBox Text="{Binding User.Name}"
+                     Margin="0 5 0 0"/>
+            <TextBox Text="{Binding User.Lastname}"
+                     Margin="0 5 0 0"/>            
+            <TextBox Text="{Binding User.Password}"
+                     Margin="0 5 0 0"/>
+            
+            <Button Margin="0 5 0 0"
+                    Command="{Binding RegisterCommand}"
+                    CommandParameter="{Binding User}"
+                    Content="Register"/>
+            <Button x:Name="haveAcccountButton"
+                    Content="I have an account"
+                    HorizontalAlignment="Right"
+                    Margin="0 5 0 0"
+                    Click="haveAcccountButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>
