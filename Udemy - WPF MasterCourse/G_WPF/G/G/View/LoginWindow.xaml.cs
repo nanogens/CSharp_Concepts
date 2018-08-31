@@ -1,4 +1,5 @@
-﻿using System;
+﻿using G.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,9 @@ namespace G.View
 		public LoginWindow()
 		{
 			InitializeComponent();
+
+			LoginVM vm = new LoginVM();
+			containerGrid.DataContext = vm;
 		}
 
 		private void haveAcccountButton_Click(object sender, RoutedEventArgs e)

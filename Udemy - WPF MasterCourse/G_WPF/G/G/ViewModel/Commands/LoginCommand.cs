@@ -26,16 +26,20 @@ namespace G.ViewModel.Commands
 		{
 			// bind to a parameter
 			var user = parameter as User;
-			
-			// if neither username or password entered, return false
-			if (string.IsNullOrEmpty(user.Username))
-			{
-				return false;
-			}
-			if (string.IsNullOrEmpty(user.Password))
-			{
-				return false;
-			}
+
+			// for now we comment this out as we don't want to make an evaluation
+			//if (user != null)
+			//{
+			//	// if neither username or password entered, return false
+			//	if (string.IsNullOrEmpty(user.Username))
+			//	{
+			//		return false;
+			//	}
+			//	if (string.IsNullOrEmpty(user.Password))
+			//	{
+			//		return false;
+			//	}
+			//}
 			return true;
 		}
 

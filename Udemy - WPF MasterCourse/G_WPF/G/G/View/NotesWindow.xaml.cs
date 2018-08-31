@@ -75,7 +75,18 @@ namespace G.View
 			List<double> fontSizes = new List<double>() { 8, 9, 10, 11, 12, 14, 16, 28, 48, 72 };
 			fontSizeComboBox.ItemsSource = fontSizes;
 		}
-    #endregion
+		#endregion
+
+		// when window is activated, i will evaluate whether the Apps.UserId is null or empty
+		protected override void OnActivated(EventArgs e)
+		{
+			base.OnActivated(e);
+			if(string.IsNullOrEmpty(App.UserId)) // if its null, it means there is still no user.  in that case create a login window
+			{
+				LoginWindow loginWindow = new LoginWindow();
+				loginWindow.ShowDialog(); // we use showdialog because we don't want to return until the user has logged in
+			}
+		}
 
 		#region Speech Related Stuff
 		// speech recognizer event handler

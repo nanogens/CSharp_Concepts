@@ -25,6 +25,9 @@ namespace G.ViewModel
 
 		public LoginCommand LoginCommand { get; set; }
 
+		// we added this event handler.  HasLoggedIn will be fired when an event is raised.
+		public event EventHandler HasLoggedIn;
+
 		public LoginVM()
 		{
 			RegisterCommand = new RegisterCommand(this);
@@ -42,6 +45,9 @@ namespace G.ViewModel
 				if(user.Password == User.Password)
 				{
 					// TODO : establish Login
+					App.UserId = user.Id.ToString(); // Assign user id which we got to the app's user id.  cast it as a string since its an integer
+					// event
+					HasLoggedIn(this, new EventArgs()); // sender, new events arguments.  this is how we fire this event
 				}
 			}
 		}
@@ -56,6 +62,7 @@ namespace G.ViewModel
 				if(result)
 				{
 					// TODO : establish register
+					App.UserId = User.Id.ToString();
 				}
 			}
 		}
