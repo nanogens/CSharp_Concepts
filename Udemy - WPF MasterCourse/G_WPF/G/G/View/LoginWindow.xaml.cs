@@ -25,7 +25,16 @@ namespace G.View
 			InitializeComponent();
 
 			LoginVM vm = new LoginVM();
+			// effectively the same thing as using DataContext = "{StaticResource login}" ??
+			// this is setting the data context from c# instead
 			containerGrid.DataContext = vm;
+			// now that we have the vm in here, we can effectively create an event handler in here
+			vm.HasLoggedIn += Vm_HasLoggedIn;
+		}
+
+		private void Vm_HasLoggedIn(object sender, EventArgs e)
+		{
+			this.Close(); // we can close here because the user has already logged in or registered
 		}
 
 		private void haveAcccountButton_Click(object sender, RoutedEventArgs e)
