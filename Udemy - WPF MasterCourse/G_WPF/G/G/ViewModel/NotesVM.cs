@@ -58,7 +58,8 @@ namespace G.ViewModel
 		{
 			Notebook newNotebook = new Notebook()
 			{
-				Name = "New Notebook"
+				Name = "New Notebook",
+				UserId = int.Parse(App.UserId)  // Parse the string UserId and cast it as an integer
 			};
 			DatabaseHelper.Insert(newNotebook);
 
