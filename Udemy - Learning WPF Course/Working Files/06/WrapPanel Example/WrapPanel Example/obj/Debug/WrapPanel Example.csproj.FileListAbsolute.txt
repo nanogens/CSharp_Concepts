@@ -39,19 +39,6 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPan
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.pdb
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.exe.config
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.exe
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.pdb
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\MainWindow.g.cs
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\App.g.cs
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example_MarkupCompile.cache
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example_MarkupCompile.lref
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\MainWindow.baml
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.g.resources
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel_Example.Properties.Resources.resources
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.csproj.GenerateResource.Cache
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.exe
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.pdb
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.exe.config
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.exe
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.pdb
@@ -66,3 +53,16 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.csproj.CoreCompileInputs.cache
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.exe
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\bin\Debug\WrapPanel Example.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel_Example.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\06\WrapPanel Example\WrapPanel Example\obj\Debug\WrapPanel Example.pdb

@@ -25,19 +25,6 @@ C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managin
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.csproj.CoreCompileInputs.cache
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.exe
 C:\Learning\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.pdb
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.exe.config
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.exe
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.pdb
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\MainWindow.g.cs
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\App.g.cs
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment_MarkupCompile.cache
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment_MarkupCompile.lref
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\MainWindow.baml
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.g.resources
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing_Position_Content_Alignment.Properties.Resources.resources
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.csproj.GenerateResource.Cache
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.exe
-D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.pdb
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.exe.config
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.exe
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.pdb
@@ -53,3 +40,16 @@ D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing 
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.csproj.CoreCompileInputs.cache
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.exe
 \\192.168.0.10\Public\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.exe.config
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\bin\Debug\Managing Position Content Alignment.pdb
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\MainWindow.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\App.g.cs
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment_MarkupCompile.cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment_MarkupCompile.lref
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\MainWindow.baml
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.g.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing_Position_Content_Alignment.Properties.Resources.resources
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.csproj.GenerateResource.Cache
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.exe
+D:\GitHub\CSharp_Concepts\Udemy - Learning WPF Course\Working Files\05\Managing Position Content Alignment\Managing Position Content Alignment\obj\Debug\Managing Position Content Alignment.pdb

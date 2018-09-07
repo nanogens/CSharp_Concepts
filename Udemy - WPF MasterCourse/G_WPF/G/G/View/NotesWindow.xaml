@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G.View"
         xmlns:vm="clr-namespace:G.ViewModel"
+        xmlns:cv="clr-namespace:G.ViewModel.Converters"
         xmlns:uc="clr-namespace:G.View.UserControls"
         mc:Ignorable="d"
         Title="NotesWindow" Height="400" Width="600">
     
     <Window.Resources>
         <vm:NotesVM x:Key="vm"/>
+        <cv:BoolToVisConverter x:Key="boolToVis"/>
     </Window.Resources>
     
     <DockPanel DataContext="{StaticResource vm}">
@@ -40,7 +42,16 @@
                   ItemsSource="{Binding Notebooks}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <uc:Notebook DisplayNotebook="{Binding}"/>
+                    <Grid>
+                        <uc:Notebook DisplayNotebook="{Binding}"/>
+                        <TextBox Text="{Binding Name, Mode=TwoWay}"
+                                 Visibility="{Binding Source={StaticResource vm}, Path=IsEditing, Converter={StaticResource boolToVis}}"/>
+                        <Grid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Rename"/>
+                            </ContextMenu>
+                        </Grid.ContextMenu>
+                    </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -15,6 +15,8 @@ namespace G.ViewModel
 {
 	public class NotesVM
 	{
+		public bool IsEditing { get; set; }
+
 		// This Notebook property is eventually going to be bound to a Listview displaying Notebooks
 		public ObservableCollection<Notebook> Notebooks { get; set; }
 
@@ -40,6 +42,8 @@ namespace G.ViewModel
 		#region Constructor
 		public NotesVM()
 		{
+			IsEditing = false;
+
 			// we are simply creating the properties that will eventually be bound to elements inside of the view
 			// we are creating the properties & commands ready to be bound
 			NewNoteCommand = new NewNoteCommand(this);
