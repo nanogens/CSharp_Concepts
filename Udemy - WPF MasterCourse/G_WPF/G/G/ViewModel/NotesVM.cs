@@ -39,6 +39,8 @@ namespace G.ViewModel
 		public NewNotebookCommand NewNotebookCommand { get; set; }
 		public NewNoteCommand NewNoteCommand { get; set; }
 
+		public BeginEditCommand BeginEditCommand { get; set; }
+
 		#region Constructor
 		public NotesVM()
 		{
@@ -48,6 +50,7 @@ namespace G.ViewModel
 			// we are creating the properties & commands ready to be bound
 			NewNoteCommand = new NewNoteCommand(this);
 			NewNotebookCommand = new NewNotebookCommand(this);
+			BeginEditCommand = new BeginEditCommand(this); // initialize it here in constructor
 
 			// Initialize both the Notebooks and Notes variables/properties - an observable collection 
 			Notebooks = new ObservableCollection<Notebook>();
@@ -126,6 +129,19 @@ namespace G.ViewModel
 						Notes.Add(note);
 					}
 				}
+			}
+		}
+
+		public void StartEditing()
+		{
+			IsEditing = true;
+		}
+
+		public void HasRenamed(Notebook notebook)
+		{
+			if(notebook != null)
+			{
+				DatabaseHelper.Update(notebook);
 			}
 		}
 	}
