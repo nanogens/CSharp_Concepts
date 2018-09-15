@@ -10,10 +10,11 @@ using G.Model;
 
 // For NewNotebookCommand
 using G.ViewModel.Commands;
+using System.ComponentModel;
 
 namespace G.ViewModel
 {
-	public class NotesVM
+	public class NotesVM 
 	{
 		public bool IsEditing { get; set; }
 
@@ -40,6 +41,7 @@ namespace G.ViewModel
 		public NewNoteCommand NewNoteCommand { get; set; }
 
 		public BeginEditCommand BeginEditCommand { get; set; }
+		public HasEditedCommand HasEditedCommand { get; set; }
 
 		#region Constructor
 		public NotesVM()
@@ -51,6 +53,7 @@ namespace G.ViewModel
 			NewNoteCommand = new NewNoteCommand(this);
 			NewNotebookCommand = new NewNotebookCommand(this);
 			BeginEditCommand = new BeginEditCommand(this); // initialize it here in constructor
+			HasEditedCommand = new HasEditedCommand(this);
 
 			// Initialize both the Notebooks and Notes variables/properties - an observable collection 
 			Notebooks = new ObservableCollection<Notebook>();
